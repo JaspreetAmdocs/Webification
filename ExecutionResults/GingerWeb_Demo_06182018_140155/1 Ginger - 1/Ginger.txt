@@ -1,1 +1,0 @@
-{"Seq":1,"Name":"Ginger - 1","GUID":"4323511f-de49-47dc-8f5e-5aafcb023edf","EnvironmentName":"ENV_DEMO","StartTimeStamp":"2018-06-18T04:01:55.9341413Z","EndTimeStamp":"2018-06-18T04:02:21.7652768Z","Elapsed":25.83,"ApplicationAgentsMappingList":["Google - Agent 1_:_Google"]}
