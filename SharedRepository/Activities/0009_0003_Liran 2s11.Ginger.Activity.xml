@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="0009_0003_Liran 2&gt;s11" AutomationStatus="Automated" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Description="            v22&#xA;          sfsdfsd " EnableActionsVariablesDependenciesControl="False" Expected="sdfsdfsdf" ExternalID="RQMID=400973_1|AtsID=321" Guid="6d87a2bd-fb3f-4eef-9720-29cc58019ab9" LastUpdate="05-Jun-17 16:09:54" LastUpdateBy="OLEGO" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="2">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableSelectionList Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="de1b668f-b912-4349-aff1-3b54dca125c8" LastUpdate="01-Jan-01 00:00:00" Name="p111" OptionalValues="v22" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="v22" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

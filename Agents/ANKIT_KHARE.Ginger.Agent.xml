@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.3.0.0-->
+<GingerCore.Agent Active="True" Created="8/29/2016 5:14:47 PM" CreatedBy="ANKHARE" DriverType="UnixShell" Guid="00000000-0000-0000-0000-000000000000" LastUpdate="6/1/2017 12:56:14 PM" LastUpdateBy="eliranba" Name="ANKIT_KHARE" Notes="Test" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="2">
+<DriverConfiguration>
+<GingerCore.DriverConfigParam Created="8/29/2016 5:14:52 PM" CreatedBy="ANKHARE" Description="Host Name or IP" Guid="9b9c0bad-4fc9-4b27-83d5-a60da990524e" LastUpdate="1/1/0001 12:00:00 AM" Parameter="Host" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.DriverConfigParam Created="8/29/2016 5:14:52 PM" CreatedBy="ANKHARE" Description="User Name to use for connection" Guid="93fe0394-cdb8-4d8a-9f97-c60c78388431" LastUpdate="1/1/0001 12:00:00 AM" Parameter="UserName" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.DriverConfigParam Created="8/29/2016 5:14:52 PM" CreatedBy="ANKHARE" Description="Password to use for connection" Guid="e4b2defa-f45b-4932-b5df-c95244e484dd" LastUpdate="1/1/0001 12:00:00 AM" Parameter="Password" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.DriverConfigParam Created="8/29/2016 5:14:52 PM" CreatedBy="ANKHARE" Description="Path to private key file to use for connection" Guid="19ead7a5-12b8-4d88-96e8-c0a3953020ee" LastUpdate="1/1/0001 12:00:00 AM" Parameter="PrivateKey" ParentGuid="00000000-0000-0000-0000-000000000000" Value="C:\Keys\rsakey.txt" Version="0" />
+<GingerCore.DriverConfigParam Created="8/29/2016 5:14:52 PM" CreatedBy="ANKHARE" Description="Passphrase to private key" Guid="6df34900-61fe-4d93-97c0-3904770e94a6" LastUpdate="1/1/0001 12:00:00 AM" Parameter="PrivateKeyPassPhrase" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.DriverConfigParam Created="8/29/2016 5:14:52 PM" CreatedBy="ANKHARE" Description="Port" Guid="9a2084e4-fb1a-4730-864a-67c32eb8a651" LastUpdate="1/1/0001 12:00:00 AM" Parameter="Port" ParentGuid="00000000-0000-0000-0000-000000000000" Value="22" Version="0" />
+</DriverConfiguration>
+</GingerCore.Agent>

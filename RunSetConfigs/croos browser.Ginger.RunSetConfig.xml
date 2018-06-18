@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 1.8.0.0-->
+<Ginger.Run.RunSetConfig Created="6/8/2016 3:15:42 PM" CreatedBy="subodhsi" Guid="1a46a599-33be-4538-a3db-ccc93880e5ad" LastUpdate="6/8/2016 3:24:22 PM" LastUpdateBy="subodhsi" Name="croos browser" ParentGuid="00000000-0000-0000-0000-000000000000" SendEmail="False" Version="2">
+<GingerRunners>
+<Ginger.Run.GingerRunner Created="6/8/2016 3:15:42 PM" CreatedBy="subodhsi" Guid="a5b467cd-656d-486a-9d82-e9e90b0d5477" LastUpdate="1/1/0001 12:00:00 AM" Name="Ginger - 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" Selected="False" Version="0">
+<ApplicationAgents>
+<GingerCore.Platforms.ApplicationAgent AgentName="Google - Agent 1" AppName="Google" Created="6/8/2016 3:15:54 PM" CreatedBy="subodhsi" Guid="1e60f33f-a44f-42bd-bc1f-2c8c274caf12" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="14e327a7-19ef-4930-9c5c-e2e67e562227" BusinessFlowIsActive="True" BusinessFlowName="Travel_Auto" Created="6/8/2016 3:24:22 PM" CreatedBy="subodhsi" Guid="938614d9-8b8c-4245-946e-3cd3a3a6efd9" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+</BusinessFlowsRunList>
+</Ginger.Run.GingerRunner>
+<Ginger.Run.GingerRunner Created="6/8/2016 3:19:29 PM" CreatedBy="subodhsi" Guid="12cdb92e-aae5-4eea-a216-543e1338464a" LastUpdate="1/1/0001 12:00:00 AM" Name="Ginger - 2" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" Selected="False" Version="0">
+<ApplicationAgents>
+<GingerCore.Platforms.ApplicationAgent AgentName="WEB IE" AppName="Google" Created="6/8/2016 3:19:39 PM" CreatedBy="subodhsi" Guid="55322df2-c514-4be0-b942-648149a19720" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="14e327a7-19ef-4930-9c5c-e2e67e562227" BusinessFlowIsActive="True" BusinessFlowName="Travel_Auto" Created="6/8/2016 3:24:22 PM" CreatedBy="subodhsi" Guid="fcba293e-3568-4a30-a098-adb1a7c36108" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+</BusinessFlowsRunList>
+</Ginger.Run.GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+</RunSetActions>
+</Ginger.Run.RunSetConfig>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="0010_0006_OlegO Testing Activity 6&gt;s2" AutomationStatus="Automated" Created="06-Jun-17 14:27:21" CreatedBy="OLEGO" Description="            Self Service&#xA;          sdfwefdf-weight:bold; fon " EnableActionsVariablesDependenciesControl="False" Expected="asdfasdf asdfwef" ExternalID="RQMID=401175_2|AtsID=362" Guid="edc3b743-e19f-49a5-85aa-73c99032755f" LastUpdate="07-Jun-17 15:02:42" LastUpdateBy="OLEGO" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="9">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableSelectionList Created="06-Jun-17 14:27:21" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="5f7327c2-2207-4583-92e5-c218091a64e1" LastUpdate="01-Jan-01 00:00:00" Name="some test parameter" OptionalValues="Sales Rep" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="Sales Rep" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+<GingerCore.Variables.VariableSelectionList Created="06-Jun-17 14:27:21" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="88cd9291-10fa-43e5-8fe5-04bc1103ad0c" LastUpdate="01-Jan-01 00:00:00" Name="regular parameter" OptionalValues="some value" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="some value" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

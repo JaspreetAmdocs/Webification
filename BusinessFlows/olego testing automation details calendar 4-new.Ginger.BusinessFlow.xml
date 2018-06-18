@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="05-Jun-17 15:15:43" CreatedBy="OLEGO" EnableActivitiesVariablesDependenciesControl="False" ExternalID="RQMID=1794" Guid="abad4989-8f66-43ea-a819-75afdfaaf434" LastUpdate="05-Jun-17 15:17:17" LastUpdateBy="OLEGO" Name="olego testing automation details calendar 4-&gt;new" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Development" Version="2">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="0008_0003_Liran 1" ActivityName="0008_0003_Liran 1&gt;s1" AutomationStatus="Automated" Created="05-Jun-17 15:15:49" CreatedBy="OLEGO" Description="            v33&#xA;          sdfsdfsdf-weight:bold; fon " EnableActionsVariablesDependenciesControl="False" Expected="sdfsfs" ExternalID="RQMID=400972_1|AtsID=320" Guid="f23033ae-8079-4209-b744-ade850807b4b" LastUpdate="01-Jan-01 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableSelectionList Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="a39b5348-19e1-4faa-b710-c9f87bc01451" LastUpdate="01-Jan-01 00:00:00" Name="p1" OptionalValues="v33" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="v33" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="0009_0003_Liran 2" ActivityName="0009_0003_Liran 2&gt;s11" AutomationStatus="Automated" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Description="            v22&#xA;          sfsdfsd " EnableActionsVariablesDependenciesControl="False" Expected="sdfsdfsdf" ExternalID="RQMID=400973_1|AtsID=321" Guid="6d87a2bd-fb3f-4eef-9720-29cc58019ab9" LastUpdate="01-Jan-01 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableSelectionList Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="de1b668f-b912-4349-aff1-3b54dca125c8" LastUpdate="01-Jan-01 00:00:00" Name="p111" OptionalValues="v22" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="v22" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="0010_0003_Liran 1" ActivityName="0010_0003_Liran 1&gt;s1" AutomationStatus="Automated" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Description="            v22&#xA;          sdfsdfsdf-weight:bold; fon " EnableActionsVariablesDependenciesControl="False" Expected="sdfsfs" ExternalID="RQMID=400974_1|AtsID=320" Guid="056b98e3-6611-4cc5-9558-608cd0604546" LastUpdate="01-Jan-01 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableSelectionList Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="fe7ef540-c91f-466d-873a-676071925147" LastUpdate="01-Jan-01 00:00:00" Name="p1" OptionalValues="v22" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="v22" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="0011_0003_Liran 2" ActivityName="0011_0003_Liran 2&gt;s11" AutomationStatus="Automated" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Description="            v33&#xA;          sfsdfsd " EnableActionsVariablesDependenciesControl="False" Expected="sdfsdfsdf" ExternalID="RQMID=400975_1|AtsID=321" Guid="a28b9882-b528-473d-9908-9e0314431614" LastUpdate="01-Jan-01 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableSelectionList Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="55971aa3-17cf-45a2-9a6d-30497bf82bd1" LastUpdate="01-Jan-01 00:00:00" Name="p111" OptionalValues="v33" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="v33" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="0012_0003_Olego Renamed" ActivityName="0012_0003_Olego Renamed&gt;s11" AutomationStatus="Development" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Description="            v22&#xA;          sfsdfsd " EnableActionsVariablesDependenciesControl="False" Expected="sdfsdfsdf" ExternalID="RQMID=400976_1|AtsID=321" Guid="4f4fb1ab-4254-485a-9c30-2b0c40a0b069" LastUpdate="01-Jan-01 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableSelectionList Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="a93dad82-f35a-492c-aa69-6dbfba792a40" LastUpdate="01-Jan-01 00:00:00" Name="p111" OptionalValues="v22" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="v22" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="0013_0003_Olego Added TC" ActivityName="0013_0003_Olego Added TC&gt;s11" AutomationStatus="Development" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Description="            v33&#xA;          sfsdfsd " EnableActionsVariablesDependenciesControl="False" Expected="sdfsdfsdf" ExternalID="RQMID=400977_1|AtsID=321" Guid="6447cfec-7e9e-4b68-ac37-f2b820f69b32" LastUpdate="01-Jan-01 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableSelectionList Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="563ce45f-d338-4461-9a50-ad9cb4cf092e" LastUpdate="01-Jan-01 00:00:00" Name="p111" OptionalValues="v33" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="v33" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="0014_0003_Olego Added TC 2" ActivityName="0014_0003_Olego Added TC 2&gt;s11" AutomationStatus="Development" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Description="            v22&#xA;          sfsdfsd " EnableActionsVariablesDependenciesControl="False" Expected="sdfsdfsdf" ExternalID="RQMID=400978_1|AtsID=321" Guid="9a77209e-39b3-4ec5-b21b-9a29f98a9b86" LastUpdate="01-Jan-01 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableSelectionList Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="6dbe2015-6a34-4293-9e1e-f1200508d2ed" LastUpdate="01-Jan-01 00:00:00" Name="p111" OptionalValues="v22" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="v22" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+<GingerCore.Activities.ActivitiesGroup Created="05-Jun-17 15:15:43" CreatedBy="OLEGO" ExternalID="RQMID=423306|RQMScriptID=400972|RQMRecordID=|AtsID=221" Guid="be71587c-3050-49ab-9f4d-b566dcf04a16" LastUpdate="01-Jan-01 00:00:00" Name="0008_0003_Liran 1" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityDescription="            v33&#xA;          sdfsdfsdf-weight:bold; fon " ActivityExternalID="RQMID=400972_1|AtsID=320" ActivityGuid="f23033ae-8079-4209-b744-ade850807b4b" ActivityName="0008_0003_Liran 1&gt;s1" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Guid="6f9d6cac-799c-437b-81e3-3ac2cad85c75" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+<GingerCore.Activities.ActivitiesGroup Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" ExternalID="RQMID=423307|RQMScriptID=400973|RQMRecordID=|AtsID=222" Guid="abd410a4-9ba6-471c-aeaa-a6d707c4b69d" LastUpdate="01-Jan-01 00:00:00" Name="0009_0003_Liran 2" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityDescription="            v22&#xA;          sfsdfsd " ActivityExternalID="RQMID=400973_1|AtsID=321" ActivityGuid="6d87a2bd-fb3f-4eef-9720-29cc58019ab9" ActivityName="0009_0003_Liran 2&gt;s11" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Guid="baccbee4-08a8-4462-b93a-4069829153e3" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+<GingerCore.Activities.ActivitiesGroup Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" ExternalID="RQMID=423308|RQMScriptID=400974|RQMRecordID=|AtsID=221" Guid="a808c63f-f893-4ebe-8a11-206411f0735a" LastUpdate="01-Jan-01 00:00:00" Name="0010_0003_Liran 1" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityDescription="            v22&#xA;          sdfsdfsdf-weight:bold; fon " ActivityExternalID="RQMID=400974_1|AtsID=320" ActivityGuid="056b98e3-6611-4cc5-9558-608cd0604546" ActivityName="0010_0003_Liran 1&gt;s1" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Guid="d80a0eef-6200-4f23-83a5-3cb15189074c" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+<GingerCore.Activities.ActivitiesGroup Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" ExternalID="RQMID=423309|RQMScriptID=400975|RQMRecordID=|AtsID=222" Guid="cddc2379-c9c1-40f3-b84f-bc28334301b8" LastUpdate="01-Jan-01 00:00:00" Name="0011_0003_Liran 2" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityDescription="            v33&#xA;          sfsdfsd " ActivityExternalID="RQMID=400975_1|AtsID=321" ActivityGuid="a28b9882-b528-473d-9908-9e0314431614" ActivityName="0011_0003_Liran 2&gt;s11" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Guid="ca261e1e-6f5d-48d9-b3f6-106cf25ad4be" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+<GingerCore.Activities.ActivitiesGroup Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" ExternalID="RQMID=423310|RQMScriptID=400976|RQMRecordID=|AtsID=222" Guid="e051a82e-9836-47f1-9e74-2e53f95f1847" LastUpdate="01-Jan-01 00:00:00" Name="0012_0003_Olego Renamed" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="            v22&#xA;          sfsdfsd " ActivityExternalID="RQMID=400976_1|AtsID=321" ActivityGuid="4f4fb1ab-4254-485a-9c30-2b0c40a0b069" ActivityName="0012_0003_Olego Renamed&gt;s11" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Guid="36c5b92b-2521-48b6-8719-b114b60cb33d" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+<GingerCore.Activities.ActivitiesGroup Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" ExternalID="RQMID=423311|RQMScriptID=400977|RQMRecordID=|AtsID=222" Guid="8371fb37-d37e-45b2-ac7f-30ad186ab231" LastUpdate="01-Jan-01 00:00:00" Name="0013_0003_Olego Added TC" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="            v33&#xA;          sfsdfsd " ActivityExternalID="RQMID=400977_1|AtsID=321" ActivityGuid="6447cfec-7e9e-4b68-ac37-f2b820f69b32" ActivityName="0013_0003_Olego Added TC&gt;s11" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Guid="78365e3b-c06b-4ef7-9e52-60c50dd07ed7" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+<GingerCore.Activities.ActivitiesGroup Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" ExternalID="RQMID=423312|RQMScriptID=400978|RQMRecordID=|AtsID=222" Guid="ed268246-8e88-43e5-9dce-8f221e30a3ee" LastUpdate="01-Jan-01 00:00:00" Name="0014_0003_Olego Added TC 2" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="            v22&#xA;          sfsdfsd " ActivityExternalID="RQMID=400978_1|AtsID=321" ActivityGuid="9a77209e-39b3-4ec5-b21b-9a29f98a9b86" ActivityName="0014_0003_Olego Added TC 2&gt;s11" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Guid="bb8ff9e3-7627-4904-aa2f-affd2fa8e372" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+</ActivitiesGroups>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Google" Created="05-Jun-17 15:15:52" CreatedBy="OLEGO" Guid="b6275daf-8153-4aab-88b7-17dcf547df20" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>

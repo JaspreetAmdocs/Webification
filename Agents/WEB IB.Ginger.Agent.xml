@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 1.8.0.0-->
+<GingerCore.Agent Active="True" Created="6/8/2016 7:37:37 PM" CreatedBy="subodhsi" DriverType="InternalBrowser" Guid="00000000-0000-0000-0000-000000000000" LastUpdate="6/9/2016 5:03:48 AM" LastUpdateBy="subodhsi" Name="WEB IB" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Status="NotStarted" Version="2">
+<DriverConfiguration>
+</DriverConfiguration>
+</GingerCore.Agent>

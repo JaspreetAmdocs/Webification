@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="11/7/2017 10:22:38 AM" CreatedBy="SUBODHSI" EnableActivitiesVariablesDependenciesControl="False" ExternalID="45196" Guid="70871240-ca6d-40f7-9c94-cc4676b36001" LastUpdate="5/25/2018 7:15:37 AM" LastUpdateBy="JKAUR" Mandatory="False" Name="test90" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="6">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="NewGroup" ActivityName="Activity 1" AutomationStatus="Development" Created="11/7/2017 10:22:38 AM" CreatedBy="SUBODHSI" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="4937a367-9116-42f1-9558-e26642a0b500" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="50%" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="11/7/2017 11:06:25 AM" CreatedBy="YUVALLEV" Description="Goto URL Action" EnableRetryMechanism="False" ExternalID="" Guid="d245892b-ee89-443c-b917-3208766e4492" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="60dcf747-0fe7-4dcc-8aa1-1fa6caedbecc" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="www.google.com" Value="www.google.com" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+<GingerCore.Actions.ActLink Active="False" ConfigOutputDS="False" Created="5/25/2018 7:01:04 AM" CreatedBy="JKAUR" Description="Link Action" EnableRetryMechanism="False" Guid="f1142425-bea5-483f-aaf0-d8b835be8176" LastUpdate="1/1/0001 12:00:00 AM" LinkAction="0" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="4a5410b6-2830-4117-8f67-313807d0e15f" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActLink>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+<GingerCore.Activities.ActivitiesGroup Created="11/7/2017 11:06:16 AM" CreatedBy="YUVALLEV" ExternalID="1272729" ExternalID2="890790" Guid="c86c91ad-db42-4406-bdc1-be7004a73704" LastUpdate="1/1/0001 12:00:00 AM" Name="NewGroup90" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+</ActivitiesGroups>
+
+<BFFlowControls>
+</BFFlowControls>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Google" Created="11/7/2017 10:22:38 AM" CreatedBy="SUBODHSI" Guid="d3ffcf1a-46c0-4ad5-beda-72a235adda45" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>
