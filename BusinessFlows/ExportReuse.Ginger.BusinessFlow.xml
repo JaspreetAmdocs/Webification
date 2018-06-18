@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="11/07/2017 11:54:38" CreatedBy="YUVALLEV" EnableActivitiesVariablesDependenciesControl="False" ExternalID="RQMID=2601" Guid="c0429724-16ce-4051-9207-b06faca8eb2b" LastUpdate="11/07/2017 11:55:29" LastUpdateBy="YUVALLEV" Name="ExportReuse" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="2">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="NewGroupReuse" ActivityName="Activity 1" AutomationStatus="Development" Created="11/07/2017 11:54:38" CreatedBy="YUVALLEV" EnableActionsVariablesDependenciesControl="False" ExternalID="RQMID=0|AtsID=0" Guid="8a7cc5f7-edb5-4762-9178-b1a604a33e02" LastUpdate="01/01/0001 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="11/07/2017 11:54:58" CreatedBy="YUVALLEV" Description="Goto URL Action" EnableRetryMechanism="False" ExternalID="" Guid="10931830-4680-466d-9489-9b1ad2729a4a" LastUpdate="01/01/0001 00:00:00" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="11/07/2017 11:55:01" CreatedBy="YUVALLEV" Guid="911c150d-f55d-494c-90c4-579ebdca7fbe" LastUpdate="01/01/0001 00:00:00" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="www.google.com" Value="www.google.com" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+<GingerCore.Activities.ActivitiesGroup Created="11/07/2017 11:54:45" CreatedBy="YUVALLEV" ExternalID="RQMID=433231|RQMScriptID=402204|RQMRecordID=73666|AtsID=0" Guid="7ff7c37a-c6ce-48df-985b-5398f9f35694" LastUpdate="01/01/0001 00:00:00" Name="NewGroupReuse" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8a7cc5f7-edb5-4762-9178-b1a604a33e02" ActivityName="Activity 1" Created="11/07/2017 11:54:53" CreatedBy="YUVALLEV" Guid="65e81cc9-9a45-4ad7-bfdf-bda4901e47fe" LastUpdate="01/01/0001 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+</ActivitiesGroups>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Google" Created="11/07/2017 11:54:40" CreatedBy="YUVALLEV" Guid="0650360e-7b6b-4b9c-b6d0-466daff61a64" LastUpdate="01/01/0001 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>

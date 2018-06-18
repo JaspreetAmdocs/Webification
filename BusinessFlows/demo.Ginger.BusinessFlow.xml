@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.2.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="6/22/2016 6:09:20 AM" CreatedBy="SUBODHSI" EnableActivitiesVariablesDependenciesControl="False" Guid="1a90b726-2b57-46c7-ab17-a300493217ba" LastUpdate="8/29/2016 4:48:53 PM" LastUpdateBy="subodhsi" Name="demo" ParentGuid="00000000-0000-0000-0000-000000000000" Version="3">
+  <Activities>
+    <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="6/22/2016 6:09:20 AM" CreatedBy="SUBODHSI" Elapsed="2207" EnableActionsVariablesDependenciesControl="False" Guid="d146d80d-50ab-4f90-824c-0be3b59fa8aa" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="67%" Status="Pass" TargetApplication="Google" Version="0">
+      <Acts>
+        <GingerCore.Actions.ActGotoURL Active="True" Created="6/22/2016 6:09:26 AM" CreatedBy="SUBODHSI" Description="Goto URL Action" EnableRetryMechanism="False" Guid="6537e6df-1f3a-466d-a7bf-699e6913a5f7" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" LocateValue="" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+          <FlowControls></FlowControls>
+          <InputValues>
+            <GingerCore.Actions.ActInputValue Created="6/22/2016 6:09:30 AM" CreatedBy="SUBODHSI" Guid="dbc7c099-9012-45c7-b8e7-0a0f9794a23c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{EnvParam App=Golbal Params Param=url}" Value="{EnvParam App=Golbal Params Param=url}" Version="0" />
+          </InputValues>
+          <ReturnValues></ReturnValues>
+          <VariablesDependencies></VariablesDependencies>
+        </GingerCore.Actions.ActGotoURL>
+        <GingerCore.Actions.ActGenElement Active="True" Created="6/22/2016 6:14:08 AM" CreatedBy="SUBODHSI" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="GetWindowTitle" Guid="478a44dc-faa0-4792-a370-11662680d1cb" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+          <FlowControls></FlowControls>
+          <InputValues>
+            <GingerCore.Actions.ActInputValue Created="6/22/2016 6:14:16 AM" CreatedBy="SUBODHSI" Guid="7628fb06-5cf0-449e-919e-71b4071c1e96" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+          </InputValues>
+          <ReturnValues>
+            <GingerCore.Actions.ActReturnValue Active="True" Created="6/22/2016 6:14:56 AM" CreatedBy="SUBODHSI" Guid="03317525-4c1c-46bf-9041-32f191eed129" LastUpdate="1/1/0001 12:00:00 AM" mExpected="Google1212" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="VerifyTitle" Version="0" />
+          </ReturnValues>
+          <VariablesDependencies></VariablesDependencies>
+        </GingerCore.Actions.ActGenElement>
+        <GingerCore.Actions.ActTextBox Active="False" Created="6/22/2016 6:11:07 AM" CreatedBy="SUBODHSI" Description="TextBox Action" EnableRetryMechanism="False" Guid="51bdfe71-c2a3-4cfa-a0e7-117d49953e62" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" TextBoxAction="SetValueFast" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+          <FlowControls></FlowControls>
+          <InputValues>
+            <GingerCore.Actions.ActInputValue Created="6/22/2016 6:11:19 AM" CreatedBy="SUBODHSI" Guid="6214a192-0cb8-4fc5-9e62-5b46ea74b91a" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=steUserName}" Value="{Var Name=steUserName}" Version="0" />
+          </InputValues>
+          <ReturnValues></ReturnValues>
+          <VariablesDependencies></VariablesDependencies>
+        </GingerCore.Actions.ActTextBox>
+      </Acts>
+      <Variables>
+        <GingerCore.Variables.VariableString Created="6/22/2016 6:15:31 AM" CreatedBy="SUBODHSI" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="46be4c5b-9fd7-47c1-a93b-a1df873b32f6" InitialStringValue="Google" LastUpdate="1/1/0001 12:00:00 AM" Name="VerifyTitle" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Google" Version="0" />
+      </Variables>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Activity>
+  </Activities>
+  <ActivitiesGroups></ActivitiesGroups>
+  <TargetApplications>
+    <GingerCore.Platforms.TargetApplication AppName="Google" Created="6/22/2016 6:09:20 AM" CreatedBy="SUBODHSI" Guid="8a4d2579-4f5a-4abf-b43a-77cf4ed7e397" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+  </TargetApplications>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="6/22/2016 6:12:24 AM" CreatedBy="SUBODHSI" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="afb05963-e7f5-4f49-871a-a5816ab7e831" InitialStringValue="test" LastUpdate="1/1/0001 12:00:00 AM" Name="steUserName" ParentGuid="00000000-0000-0000-0000-000000000000" Value="test" Version="0" />
+  </Variables>
+</GingerCore.BusinessFlow>

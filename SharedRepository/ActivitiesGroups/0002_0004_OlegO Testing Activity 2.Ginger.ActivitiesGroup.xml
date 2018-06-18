@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.Activities.ActivitiesGroup Created="06-Jun-17 08:09:58" CreatedBy="OLEGO" ExternalID="RQMID=424781|RQMScriptID=401025|RQMRecordID=|AtsID=245" Guid="59faafc7-6b6d-486e-b6c0-0e9586b4045c" LastUpdate="06-Jun-17 08:10:39" LastUpdateBy="OLEGO" Name="0002_0004_OlegO Testing Activity 2" ParentGuid="00000000-0000-0000-0000-000000000000" Version="1">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="            v22&#xA;          sdfsdfsdf-weight:bold; fon " ActivityExternalID="RQMID=401025_1|AtsID=353" ActivityGuid="74af96d6-d882-4310-9d26-3e4cbed19f53" ActivityName="0002_0004_OlegO Testing Activity 2&gt;s1" Created="06-Jun-17 08:09:58" CreatedBy="OLEGO" Guid="4c9b16c5-b279-47d6-b15b-2cd8c9a05fa8" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="            v22&#xA;          sdfwefdf-weight:bold; fon " ActivityExternalID="RQMID=401025_2|AtsID=354" ActivityGuid="92ef2e73-2e4c-4d34-aea7-b7a64edbf1f3" ActivityName="0002_0004_OlegO Testing Activity 2&gt;s2" Created="06-Jun-17 08:09:58" CreatedBy="OLEGO" Guid="fe0acac2-0bd3-4bfa-822b-250f4cd115de" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="            v22&#xA;          sasdfwewegefdf-weight:bold; fon " ActivityExternalID="RQMID=401025_3|AtsID=355" ActivityGuid="a78737f8-9435-4dc0-9191-dc1a46a2853c" ActivityName="0002_0004_OlegO Testing Activity 2&gt;s3" Created="06-Jun-17 08:09:58" CreatedBy="OLEGO" Guid="96eb7226-90a1-4a52-b040-ebb521577695" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>

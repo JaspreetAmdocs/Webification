@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.Activities.ActivitiesGroup Created="06-Jun-17 14:27:21" CreatedBy="OLEGO" ExternalID="RQMID=424918|RQMScriptID=401175|RQMRecordID=|AtsID=248" Guid="e39af821-a46f-4308-b6a6-b54fd135e79e" LastUpdate="07-Jun-17 09:38:52" LastUpdateBy="OLEGO" Name="0010_0006_OlegO Testing Activity 6" ParentGuid="00000000-0000-0000-0000-000000000000" Version="3">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityDescription="            $$_Sales Rep&#xA;          sdfsdfsdf-weight:bold; fon " ActivityExternalID="RQMID=401175_1|AtsID=361" ActivityGuid="53d58e70-d74c-40da-a36e-5670cc29f520" ActivityName="0010_0006_OlegO Testing Activity 6&gt;s1" Created="06-Jun-17 14:27:21" CreatedBy="OLEGO" Guid="33a8c6dd-13f2-424a-9cae-e04bbea2fd39" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityDescription="            Self Service&#xA;          sdfwefdf-weight:bold; fon " ActivityExternalID="RQMID=401175_2|AtsID=362" ActivityGuid="edc3b743-e19f-49a5-85aa-73c99032755f" ActivityName="0010_0006_OlegO Testing Activity 6&gt;s2" Created="06-Jun-17 14:27:21" CreatedBy="OLEGO" Guid="948a27f5-ed6b-4947-bdb9-84d2063f45a8" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>

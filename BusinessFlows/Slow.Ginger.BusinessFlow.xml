@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 1.8.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="2/4/2016 1:42:12 PM" CreatedBy="MENIK" EnableActivitiesVariablesDependenciesControl="False" Guid="5ceae73e-20f3-428e-b360-14e189f097ac" LastUpdate="6/22/2016 6:26:12 AM" LastUpdateBy="SUBODHSI" Name="DataBase" ParentGuid="00000000-0000-0000-0000-000000000000" Version="20">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Search Google" AutomationStatus="Development" Created="2/4/2016 1:42:12 PM" CreatedBy="MENIK" Elapsed="38983" EnableActionsVariablesDependenciesControl="False" Guid="a2ff4a50-42cc-41e6-89e6-ab0c059b5f75" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" Created="2/4/2016 1:43:57 PM" CreatedBy="MENIK" Description="Goto URL Action" EnableRetryMechanism="False" Guid="b71993e0-3047-415c-9c56-efd77ad51450" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/4/2016 1:44:00 PM" CreatedBy="MENIK" Guid="ef48d8f8-26c8-4f97-8c44-cc6bec3d99a8" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="www.google.com" Value="www.google.com" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+<GingerCore.Actions.ActDBValidation Active="True" AppName="Google" Column="" Created="2/4/2016 1:44:45 PM" CreatedBy="MENIK" DBName="LOCAL_DB" DBValidationType="FreeSQL" Description="Slow DataBase Action" EnableRetryMechanism="False" Guid="2396ee12-5df4-4d56-b6fb-fdbf52b048e0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" Table="" TakeScreenShot="False" Version="0" Wait="0" Where="rownum&lt;2" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/4/2016 1:44:49 PM" CreatedBy="MENIK" Guid="2fcb38dd-b597-42c1-8c8c-297402c5a215" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="select * from M2M_DTL_EVENTS_BKP where rownum&lt;1" Value="select * from M2M_DTL_EVENTS_BKP where rownum&lt;1" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="2/4/2016 2:26:12 PM" CreatedBy="MENIK" Guid="09025e1f-8600-4019-8832-56382fcdd253" LastUpdate="1/1/0001 12:00:00 AM" Param="APPLICATION_ID" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreToVariable="Searched Value" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDBValidation>
+<GingerCore.Actions.ActDBValidation Active="True" AppName="Google" Created="5/5/2016 10:26:05 AM" CreatedBy="SUBODHSI" DBName="LOCAL_DB" DBValidationType="FreeSQL" Description="DataBase Action" EnableRetryMechanism="False" Guid="2728198c-c7e8-43e3-98a0-29e474399263" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/5/2016 10:26:10 AM" CreatedBy="SUBODHSI" Guid="05505566-3a25-4d11-af22-b4d95195dd5a" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="select CARRIER_ID from M2M_DTL_EVENTS_BKP where rownum&lt;1" Value="select CARRIER_ID from M2M_DTL_EVENTS_BKP where rownum&lt;1" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="5/5/2016 10:28:18 AM" CreatedBy="SUBODHSI" Guid="a1f42d46-b5c3-4564-bf16-0fcec04bb7f1" LastUpdate="1/1/0001 12:00:00 AM" Param="CARRIER_ID" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreToVariable="strCarrierID" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDBValidation>
+<GingerCore.Actions.ActGenElement Active="True" Created="2/4/2016 2:28:45 PM" CreatedBy="MENIK" Description="UI Action- set search value" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="7d19408d-2eb7-49a3-9891-5279da18dc48" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="lst-ib" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/4/2016 2:28:54 PM" CreatedBy="MENIK" Guid="3b0cf67f-4936-4968-bd56-45deffb4a1ff" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=strCarrierID}" Value="{Var Name=strCarrierID}" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" Created="2/4/2016 2:29:33 PM" CreatedBy="MENIK" Description="UI Action- Click Action" EnableRetryMechanism="False" GenElementAction="Click" Guid="3a75335f-b134-42aa-969b-26a149dd4f44" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnK" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/4/2016 2:29:38 PM" CreatedBy="MENIK" Guid="ab802018-0ca1-46f0-bbe6-15120a02994e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Search Google_copy" AutomationStatus="Development" Created="2/4/2016 1:42:12 PM" CreatedBy="MENIK" Elapsed="38983" EnableActionsVariablesDependenciesControl="False" Guid="34525890-2793-4d69-b711-604bec73cfa6" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" Created="2/4/2016 1:43:57 PM" CreatedBy="MENIK" Description="Goto URL Action" EnableRetryMechanism="False" Guid="b71993e0-3047-415c-9c56-efd77ad51450" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/4/2016 1:44:00 PM" CreatedBy="MENIK" Guid="ef48d8f8-26c8-4f97-8c44-cc6bec3d99a8" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="www.google.com" Value="www.google.com" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+<GingerCore.Actions.ActDBValidation Active="True" AppName="Google" Column="" Created="2/4/2016 1:44:45 PM" CreatedBy="MENIK" DBName="LOCAL_DB" DBValidationType="FreeSQL" Description="Slow DataBase Action" EnableRetryMechanism="False" Guid="2396ee12-5df4-4d56-b6fb-fdbf52b048e0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" Table="" TakeScreenShot="False" Version="0" Wait="0" Where="rownum&lt;2" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/4/2016 1:44:49 PM" CreatedBy="MENIK" Guid="2fcb38dd-b597-42c1-8c8c-297402c5a215" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="select * from M2M_DTL_EVENTS_BKP where rownum&lt;10" Value="select * from M2M_DTL_EVENTS_BKP where rownum&lt;10" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="2/4/2016 2:26:12 PM" CreatedBy="MENIK" Guid="09025e1f-8600-4019-8832-56382fcdd253" LastUpdate="1/1/0001 12:00:00 AM" mExpected="MIGR37" Param="APPLICATION_ID" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreToVariable="Searched Value" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDBValidation>
+<GingerCore.Actions.ActDBValidation Active="True" AppName="Google" Created="5/5/2016 10:26:05 AM" CreatedBy="SUBODHSI" DBName="LOCAL_DB" DBValidationType="FreeSQL" Description="DataBase Action" EnableRetryMechanism="False" Guid="2728198c-c7e8-43e3-98a0-29e474399263" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/5/2016 10:26:10 AM" CreatedBy="SUBODHSI" Guid="05505566-3a25-4d11-af22-b4d95195dd5a" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="select CARRIER_ID from M2M_DTL_EVENTS_BKP where rownum&lt;1" Value="select CARRIER_ID from M2M_DTL_EVENTS_BKP where rownum&lt;1" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="5/5/2016 10:28:18 AM" CreatedBy="SUBODHSI" Guid="a1f42d46-b5c3-4564-bf16-0fcec04bb7f1" LastUpdate="1/1/0001 12:00:00 AM" Param="CARRIER_ID" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreToVariable="strCarrierID" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDBValidation>
+<GingerCore.Actions.ActGenElement Active="True" Created="2/4/2016 2:28:45 PM" CreatedBy="MENIK" Description="UI Action- set search value" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="7d19408d-2eb7-49a3-9891-5279da18dc48" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="lst-ib" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/4/2016 2:28:54 PM" CreatedBy="MENIK" Guid="3b0cf67f-4936-4968-bd56-45deffb4a1ff" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=strCarrierID}" Value="{Var Name=strCarrierID}" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" Created="2/4/2016 2:29:33 PM" CreatedBy="MENIK" Description="UI Action- Click Action" EnableRetryMechanism="False" GenElementAction="Click" Guid="3a75335f-b134-42aa-969b-26a149dd4f44" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnK" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/4/2016 2:29:38 PM" CreatedBy="MENIK" Guid="ab802018-0ca1-46f0-bbe6-15120a02994e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Google" Created="2/4/2016 1:42:12 PM" CreatedBy="MENIK" Guid="db1ca7fc-524b-48e0-8923-d14313d24480" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="2/4/2016 1:43:38 PM" CreatedBy="MENIK" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="cc4fd68c-bc4b-4b39-9c57-914c40abeee4" InitialStringValue="Car" LastUpdate="1/1/0001 12:00:00 AM" Name="Searched Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Car" Version="0" />
+<GingerCore.Variables.VariableString Created="5/5/2016 10:29:02 AM" CreatedBy="SUBODHSI" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="f2a56dfa-ab7f-4cb6-b6f0-d05de1a7046f" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" Name="strCarrierID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="" Version="0" />
+</Variables>
+</GingerCore.BusinessFlow>

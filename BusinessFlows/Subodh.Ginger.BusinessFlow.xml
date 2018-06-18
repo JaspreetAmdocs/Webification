@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 1.8.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="8/29/2016 5:17:47 PM" CreatedBy="subodhsi" EnableActivitiesVariablesDependenciesControl="False" Guid="a1c39158-c56a-4eaf-9a98-c7f3ad85671a" LastUpdate="8/29/2016 5:17:47 PM" LastUpdateBy="subodhsi" Name="Subodh" ParentGuid="00000000-0000-0000-0000-000000000000" Version="1">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="8/29/2016 5:17:47 PM" CreatedBy="subodhsi" EnableActionsVariablesDependenciesControl="False" Guid="a0571147-5b16-41bc-a050-3571949a1ea4" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<Acts>
+</Acts>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Google" Created="8/29/2016 5:17:47 PM" CreatedBy="subodhsi" Guid="2eb51fcc-0c58-4e55-8a2a-a88c331f8fe2" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>

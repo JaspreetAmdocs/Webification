@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.5.0.0-->
+<GingerCore.Environments.ProjEnvironment Active="False" Created="6/7/2016 9:23:05 AM" CreatedBy="subodhsi" Guid="347625e4-b559-4008-b2ae-2dcaccf623c6" LastUpdate="6/8/2016 6:34:54 PM" LastUpdateBy="subodhsi" Name="ENV_1" ParentGuid="00000000-0000-0000-0000-000000000000" Version="5">
+  <Applications>
+    <GingerCore.Environments.EnvApplication Active="True" Created="6/7/2016 9:23:13 AM" CreatedBy="subodhsi" Guid="8cb0c180-dfff-46c5-817e-9da69ead18c2" LastUpdate="1/1/0001 12:00:00 AM" Name="Google" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+      <Dbs>
+        <GingerCore.Environments.Database ConnectionString="Data Source=(description=(address=(protocol=tcp)(host=illin1897)(port=1521))(connect_data=(sid=VFGPRM)));User Id=VFGAPP7;Password=VFGAPP7;" Created="6/8/2016 6:34:26 PM" CreatedBy="subodhsi" DBType="Oracle" Guid="6c760fdc-0502-4846-9483-2ccbbb2412a0" LastUpdate="1/1/0001 12:00:00 AM" Name="LOCAL_DB" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </Dbs>
+      <GeneralParams>
+        <GingerCore.Environments.GeneralParam Created="6/8/2016 3:00:16 PM" CreatedBy="subodhsi" Encrypt="False" Guid="430e7135-34ef-4f73-ae28-0d8811bb1c84" LastUpdate="1/1/0001 12:00:00 AM" Name="ENV_URL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://www.makemytrip.com/" Version="0" />
+      </GeneralParams>
+      <LoginUsers></LoginUsers>
+      <UnixServers></UnixServers>
+    </GingerCore.Environments.EnvApplication>
+  </Applications>
+</GingerCore.Environments.ProjEnvironment>

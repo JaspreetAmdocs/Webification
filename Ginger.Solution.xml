@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<Ginger.Environments.Solution AlmType="QC" Created="6/7/2016 9:11:40 AM" CreatedBy="subodhsi" Guid="cfe58953-6d58-4efc-ba75-e6e9d3a28316" LastBusinessFlowFileName="C:\GingerSourceControl\Solutions\Webification-Demo\\BusinessFlows\Switch Frame.Ginger.BusinessFlow.xml" LastUpdate="5/25/2018 7:14:50 AM" LastUpdateBy="JKAUR" Name="GingerTraining" ParentGuid="00000000-0000-0000-0000-000000000000" ShowIndicationkForLockedItems="False" Version="3">
+<ApplicationPlatforms>
+<GingerCore.Platforms.ApplicationPlatform AppName="Google" CoreGUID="00000000-0000-0000-0000-000000000000" Created="6/7/2016 9:22:53 AM" CreatedBy="subodhsi" Guid="5a2c02eb-32ff-45c9-8a59-0d645d1fa50d" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Version="0" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<Ginger.Reports.ExecutionLoggerConfiguration Created="5/25/2018 7:06:04 AM" CreatedBy="JKAUR" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults\" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="a0d3781c-099b-4b19-b11a-84a02453bd03" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<ExternalItemsFields>
+</ExternalItemsFields>
+
+<HTMLReportsConfigurationSetList>
+<Ginger.Reports.HTMLReportsConfiguration Created="5/25/2018 7:06:04 AM" CreatedBy="JKAUR" Guid="b4d1b215-6f74-433c-a8b9-7d49387a0e4e" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsAutomaticProdIsEnabled="False" HTMLReportsFolder="~\HTMLReports\" HTMLReportTemplatesSeq="0" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" LimitReportFolderSize="False" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</HTMLReportsConfigurationSetList>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+</Ginger.Environments.Solution>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 1.8.0.0-->
+<GingerCore.Environments.ProjEnvironment Active="False" Created="6/22/2016 6:05:40 AM" CreatedBy="SUBODHSI" Guid="674e16e0-3299-45cf-8c8b-5aa59f501847" LastUpdate="6/22/2016 6:10:25 AM" LastUpdateBy="SUBODHSI" Name="ENV_DEMO" ParentGuid="00000000-0000-0000-0000-000000000000" Version="5">
+<Applications>
+<GingerCore.Environments.EnvApplication Active="True" Created="6/22/2016 6:05:52 AM" CreatedBy="SUBODHSI" Guid="b270d87f-274a-4a9d-9a18-1d7f9efb5332" LastUpdate="1/1/0001 12:00:00 AM" Name="Golbal Params" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<Dbs>
+<GingerCore.Environments.Database Created="6/22/2016 6:08:55 AM" CreatedBy="SUBODHSI" DBType="Oracle" Guid="efba1cd5-36ef-443b-afc4-a5a53a6e60ac" LastUpdate="1/1/0001 12:00:00 AM" Name="New" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</Dbs>
+
+<GeneralParams>
+<GingerCore.Environments.GeneralParam Created="6/22/2016 6:06:10 AM" CreatedBy="SUBODHSI" Encrypt="False" Guid="2c69652d-8faf-44e3-a0e2-30f33245c21c" LastUpdate="1/1/0001 12:00:00 AM" Name="url" ParentGuid="00000000-0000-0000-0000-000000000000" Value="http://www.google.co.in" Version="0" />
+<GingerCore.Environments.GeneralParam Created="6/22/2016 6:08:05 AM" CreatedBy="SUBODHSI" Encrypt="False" Guid="4fab601f-2a5b-4ad6-99b2-9c8389ad35be" LastUpdate="1/1/0001 12:00:00 AM" Name="Password" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</GeneralParams>
+
+<LoginUsers>
+</LoginUsers>
+
+<UnixServers>
+</UnixServers>
+</GingerCore.Environments.EnvApplication>
+</Applications>
+</GingerCore.Environments.ProjEnvironment>

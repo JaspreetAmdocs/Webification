@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="06/08/2016 14:26:55" CreatedBy="subodhsi" Elapsed="7989" EnableActivitiesVariablesDependenciesControl="False" ExternalID="RQMID=2599" Guid="4232d3f8-3608-4123-9d1e-33beb0984ddb" LastUpdate="11/07/2017 11:23:05" LastUpdateBy="YUVALLEV" Name="Excel" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="18">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="NewGroup354" ActivityName="Activity 1652" AutomationStatus="Development" Created="06/08/2016 14:26:55" CreatedBy="subodhsi" EnableActionsVariablesDependenciesControl="False" ExternalID="RQMID=0|AtsID=0" Guid="44a958f3-bd3c-4216-ad04-5e00dbf285cd" LastUpdate="01/01/0001 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActExcel Active="True" ConfigOutputDS="False" Created="06/08/2016 14:27:09" CreatedBy="subodhsi" Description="Excel Action" EnableRetryMechanism="False" ExcelActionType="ReadData" ExcelFileName="~\DOCUMENTS\TESTDATA - COPY.XLSX" Guid="d9480ff0-348b-4855-823c-228fddef29da" LastUpdate="01/01/0001 00:00:00" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" PrimaryKeyColumn="ID" RetryMechanismInterval="0" SelectAllRows="False" SelectRowsWhere="Used='No'" SetDataUsed="Used='No'" SheetName="Sheet1" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:27:36" CreatedBy="subodhsi" Guid="728a5fd8-3caa-45e3-9aba-b6563d45162b" LastUpdate="01/01/0001 00:00:00" Param="ExcelFileName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="~\DOCUMENTS\TESTDATA - COPY.XLSX" Value="~\DOCUMENTS\TESTDATA - COPY.XLSX" Version="0" />
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:27:39" CreatedBy="subodhsi" Guid="13ad753d-b14d-45e7-979e-e9335faa6655" LastUpdate="01/01/0001 00:00:00" Param="SheetName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Sheet1" Value="Sheet1" Version="0" />
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:31:15" CreatedBy="subodhsi" Guid="bd922a27-a874-434c-b87b-e582705ac761" LastUpdate="01/01/0001 00:00:00" Param="SelectRowsWhere" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Used='No'" Value="Used='No'" Version="0" />
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:32:17" CreatedBy="subodhsi" Guid="0d1ebeec-735e-46e6-be8c-e1f186b4bac0" LastUpdate="01/01/0001 00:00:00" Param="SetDataUsed" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Used='No'" Value="Used='No'" Version="0" />
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:32:31" CreatedBy="subodhsi" Guid="18cd80f6-767f-4ee5-adbe-683308ed31a4" LastUpdate="01/01/0001 00:00:00" Param="PrimaryKeyColumn" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID" Value="ID" Version="0" />
+<GingerCore.Actions.ActInputValue Created="11/07/2017 11:20:01" CreatedBy="SUBODHSI" Guid="7b1f0aec-dffc-4571-9783-4d4fc0f3271b" LastUpdate="01/01/0001 00:00:00" Param="ColMappingRules" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="06/09/2016 07:53:21" CreatedBy="subodhsi" Guid="516688d8-d195-4b36-a082-3de721128f6a" LastUpdate="01/01/0001 00:00:00" Param="ID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="ID" Version="0" />
+<GingerCore.Actions.ActReturnValue Active="True" Created="06/09/2016 07:53:21" CreatedBy="subodhsi" Guid="64c5f3a6-898e-481e-a362-99ddbad51a92" LastUpdate="01/01/0001 00:00:00" Param="URL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="strURL" Version="0" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActExcel>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="11/07/2017 11:21:31" CreatedBy="YUVALLEV" Description="Goto URL Action" EnableRetryMechanism="False" ExternalID="" Guid="d6598293-9442-4a53-91af-3fe472cea9cc" LastUpdate="01/01/0001 00:00:00" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="11/07/2017 11:21:34" CreatedBy="YUVALLEV" Guid="94d8e131-1696-488c-b1a9-9e35dd201699" LastUpdate="01/01/0001 00:00:00" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="www.google.com" Value="www.google.com" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="06/08/2016 14:50:48" CreatedBy="subodhsi" Description="Goto URL Action" EnableRetryMechanism="False" Guid="9a294463-cc14-4738-838c-2d1e3ad6bbb8" LastUpdate="01/01/0001 00:00:00" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:50:51" CreatedBy="subodhsi" Guid="2ed1975a-5cfa-44af-acef-0897424b41e8" LastUpdate="01/01/0001 00:00:00" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=strURL}" Value="{Var Name=strURL}" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+<GingerCore.Actions.ActExcel Active="True" ColMappingRules="Executed=ID" ConfigOutputDS="False" Created="06/08/2016 14:34:06" CreatedBy="subodhsi" Description="Excel Action" EnableRetryMechanism="False" ExcelActionType="WriteData" ExcelFileName="~\DOCUMENTS\TESTDATA - COPY.XLSX" Guid="fa0eff40-3ffb-4611-8fa4-a6225f45c568" LastUpdate="01/01/0001 00:00:00" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" PrimaryKeyColumn="ID" RetryMechanismInterval="0" SelectAllRows="False" SelectRowsWhere="ID={Var Name=ID}" SetDataUsed="" SheetName="Sheet1" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=ID}&lt;4" Created="06/08/2016 14:51:22" CreatedBy="subodhsi" FlowControlAction="RerunActivity" Guid="d6df612e-8f4f-41a5-8756-1d59ef3c2a8d" LastUpdate="01/01/0001 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:34:17" CreatedBy="subodhsi" Guid="59d7a853-cb29-4d59-9324-e33eb28b8ae9" LastUpdate="01/01/0001 00:00:00" Param="ExcelFileName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="~\DOCUMENTS\TESTDATA - COPY.XLSX" Value="~\DOCUMENTS\TESTDATA - COPY.XLSX" Version="0" />
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:34:19" CreatedBy="subodhsi" Guid="2f916dad-caef-4bab-b012-30c55bc17030" LastUpdate="01/01/0001 00:00:00" Param="SheetName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Sheet1" Value="Sheet1" Version="0" />
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:47:25" CreatedBy="subodhsi" Guid="ae16a7a4-bec3-4134-95d3-d043d32e9d5c" LastUpdate="01/01/0001 00:00:00" Param="SelectRowsWhere" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID={Var Name=ID}" Value="ID={Var Name=ID}" Version="0" />
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:47:45" CreatedBy="subodhsi" Guid="7a25e84e-e654-47d2-a86b-853788f31489" LastUpdate="01/01/0001 00:00:00" Param="PrimaryKeyColumn" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID" Value="ID" Version="0" />
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:48:40" CreatedBy="subodhsi" Guid="93b67a33-b90f-4a8b-bea5-33fa2bc6fb37" LastUpdate="01/01/0001 00:00:00" Param="SetDataUsed" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="06/08/2016 14:49:00" CreatedBy="subodhsi" Guid="cb23a0ab-d409-4dc0-b9af-23516060feca" LastUpdate="01/01/0001 00:00:00" Param="ColMappingRules" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Executed=ID" Value="Executed=ID" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActExcel>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="06/08/2016 14:36:02" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="231638f5-fd87-4d25-9b66-2525428a98ea" InitialStringValue="" LastUpdate="01/01/0001 00:00:00" MappedOutputType="None" Name="strURL" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="06/08/2016 14:31:29" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="578ded28-11d3-441e-9477-309b11003b67" InitialStringValue="1" LastUpdate="01/01/0001 00:00:00" MappedOutputType="None" Name="ID" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="1" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Launch URL_ENV" AutomationStatus="Development" Created="06/08/2016 15:01:31" CreatedBy="subodhsi" EnableActionsVariablesDependenciesControl="False" Guid="7f535cdf-d10e-48db-a04a-34bb8c749540" LastUpdate="01/01/0001 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="06/08/2016 15:01:44" CreatedBy="subodhsi" Description="Goto URL Action" EnableRetryMechanism="False" Guid="81928846-ca11-433d-b2ae-1f6be609d8c4" LastUpdate="01/01/0001 00:00:00" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="06/08/2016 15:01:48" CreatedBy="subodhsi" Guid="64c12cb4-7e60-46f8-881f-5f6374f6ae61" LastUpdate="01/01/0001 00:00:00" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{EnvParam App=Google Param=ENV_URL}" Value="{EnvParam App=Google Param=ENV_URL}" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+<GingerCore.Activities.ActivitiesGroup Created="11/07/2017 11:21:00" CreatedBy="YUVALLEV" ExternalID="RQMID=433227|RQMScriptID=402200|RQMRecordID=73663|AtsID=0" Guid="3f5500cf-cfd3-4a9b-91cd-98c618605a95" LastUpdate="01/01/0001 00:00:00" Name="NewGroup354" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="44a958f3-bd3c-4216-ad04-5e00dbf285cd" ActivityName="Activity 1652" Created="11/07/2017 11:21:08" CreatedBy="YUVALLEV" Guid="212d01df-e5da-4a7d-886c-3a4ea86f601d" LastUpdate="01/01/0001 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+</ActivitiesGroups>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Google" Created="06/08/2016 14:26:55" CreatedBy="subodhsi" Guid="657bb3ff-121e-474d-895a-1500dd1cce31" LastExecutingAgentName="Google - Agent 1" LastUpdate="01/01/0001 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="06/08/2016 14:31:29" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="578ded28-11d3-441e-9477-309b11003b67" InitialStringValue="1" LastUpdate="01/01/0001 00:00:00" MappedOutputType="None" Name="ID" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="1" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+</GingerCore.BusinessFlow>

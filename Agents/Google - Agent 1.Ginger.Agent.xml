@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.5.0.0-->
+<GingerCore.Agent Active="False" Created="6/7/2016 9:22:53 AM" CreatedBy="subodhsi" DriverType="SeleniumChrome" Guid="00000000-0000-0000-0000-000000000000" LastUpdate="9/13/2017 6:06:57 AM" LastUpdateBy="JKAUR" Name="Google - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="7">
+<DriverConfiguration>
+<GingerCore.DriverConfigParam Created="6/7/2016 9:26:12 AM" CreatedBy="subodhsi" Description="Proxy Server:Port" Guid="96dbe381-e50d-4d17-a0b3-587373e630e6" LastUpdate="1/1/0001 12:00:00 AM" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="http://genproxy.amdocs.com:8080" Version="0" />
+<GingerCore.DriverConfigParam Created="6/7/2016 9:26:12 AM" CreatedBy="subodhsi" Description="Proxy Auto Config Url" Guid="497c3fea-6b4a-485c-b693-02bc5c1c7b91" LastUpdate="1/1/0001 12:00:00 AM" Parameter="ProxyAutoConfigUrl" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.DriverConfigParam Created="6/7/2016 9:26:12 AM" CreatedBy="subodhsi" Description="Auto Detect Proxy Setting?" Guid="5e5113fa-d3f3-48e3-9c65-f25614010493" LastUpdate="1/1/0001 12:00:00 AM" Parameter="AutoDetect" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" Version="0" />
+<GingerCore.DriverConfigParam Created="6/7/2016 9:26:12 AM" CreatedBy="subodhsi" Description="Path to extension to be enabled" Guid="33c4eb42-5484-4287-9f93-f1cfa3170dc8" LastUpdate="1/1/0001 12:00:00 AM" Parameter="ExtensionPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="" Version="0" />
+<GingerCore.DriverConfigParam Created="6/7/2016 9:26:12 AM" CreatedBy="subodhsi" Description="Disable Chrome Extension?" Guid="9272133d-bc91-494e-8745-01fca02a2dad" LastUpdate="1/1/0001 12:00:00 AM" Parameter="DisableExtension" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" Version="0" />
+<GingerCore.DriverConfigParam Created="6/7/2016 9:26:12 AM" CreatedBy="subodhsi" Description="Ignore Internet Explorer protected mode" Guid="b4a81910-a8d2-4c97-bbb2-29189743c70a" LastUpdate="1/1/0001 12:00:00 AM" Parameter="IgnoreIEProtectedMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" Version="0" />
+<GingerCore.DriverConfigParam Created="6/7/2016 9:26:12 AM" CreatedBy="subodhsi" Description="Use 64Bit Browser" Guid="b6f82b47-c34c-4ce1-baac-0f3473b478ec" LastUpdate="1/1/0001 12:00:00 AM" Parameter="Use64Bitbrowser" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" Version="0" />
+<GingerCore.DriverConfigParam Created="6/7/2016 9:26:12 AM" CreatedBy="subodhsi" Description="Use Browser In Private/Incognito Mode (Please use 64bit Browse with Internet Explorer " Guid="a8f219aa-de28-443c-aeb9-be165a4371db" LastUpdate="1/1/0001 12:00:00 AM" Parameter="BrowserPrivateMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" Version="0" />
+<GingerCore.DriverConfigParam Created="6/7/2016 9:26:12 AM" CreatedBy="subodhsi" Description="Only for Chrome &amp; Firefox | Full path for the User Profile folder" Guid="f872a247-9b21-495f-a8d9-0dfe6231c54c" LastUpdate="1/1/0001 12:00:00 AM" Parameter="UserProfileFolderPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="" Version="0" />
+</DriverConfiguration>
+
+<Tags>
+</Tags>
+</GingerCore.Agent>

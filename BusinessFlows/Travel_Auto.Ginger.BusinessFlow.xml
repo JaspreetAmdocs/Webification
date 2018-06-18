@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 1.8.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="6/7/2016 9:27:45 AM" CreatedBy="subodhsi" Elapsed="162107" EnableActivitiesVariablesDependenciesControl="False" Guid="14e327a7-19ef-4930-9c5c-e2e67e562227" LastUpdate="6/22/2016 6:26:14 AM" LastUpdateBy="SUBODHSI" Name="Travel_Auto" ParentGuid="00000000-0000-0000-0000-000000000000" Version="57">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="LaunchApplication" AutomationStatus="Development" Created="6/7/2016 9:27:45 AM" CreatedBy="subodhsi" Elapsed="51029" EnableActionsVariablesDependenciesControl="False" Guid="3b41feb8-111e-471c-b2df-0ea691676601" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActClearAllVariables Active="True" Created="6/8/2016 12:11:58 PM" CreatedBy="subodhsi" Description="Clear All Variables Action" EnableRetryMechanism="False" Guid="16c6122a-2bbf-4735-9429-5cc5c3ac610c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:12:05 PM" CreatedBy="subodhsi" Guid="8ec8350a-5b76-41f8-8dfc-06c59ffc7fad" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActClearAllVariables>
+<GingerCore.Actions.ActExcel Active="True" Created="6/8/2016 12:12:12 PM" CreatedBy="subodhsi" Description="Excel Action" EnableRetryMechanism="False" ExcelActionType="ReadData" ExcelFileName="~\DOCUMENTS\TESTDATA.XLSX" Guid="aff27592-fa74-460e-97a8-872d75777e7e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" PrimaryKeyColumn="ID" RetryMechanismInterval="0" SelectRowsWhere="ID=1" SheetName="Sheet1" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:12:24 PM" CreatedBy="subodhsi" Guid="b35e21ec-2141-4738-8d39-37aaa10c2a01" LastUpdate="1/1/0001 12:00:00 AM" Param="ExcelFileName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="~\DOCUMENTS\TESTDATA.XLSX" Value="~\DOCUMENTS\TESTDATA.XLSX" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:12:29 PM" CreatedBy="subodhsi" Guid="a6dc50d1-b204-4c6c-bc90-ef29aa19b722" LastUpdate="1/1/0001 12:00:00 AM" Param="SheetName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Sheet1" Value="Sheet1" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:12:51 PM" CreatedBy="subodhsi" Guid="179fba7f-71a9-401b-8c8f-463c615c3510" LastUpdate="1/1/0001 12:00:00 AM" Param="SelectRowsWhere" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID=1" Value="ID=1" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:13:00 PM" CreatedBy="subodhsi" Guid="e68ca078-e290-4546-9dd9-ec7bbb536b59" LastUpdate="1/1/0001 12:00:00 AM" Param="PrimaryKeyColumn" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID" Value="ID" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/8/2016 12:13:30 PM" CreatedBy="subodhsi" Guid="055b4781-1b39-4101-83ea-806fb2116565" LastUpdate="1/1/0001 12:00:00 AM" Param="Depart_Location" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="strDepartureLocation" Version="0" />
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/8/2016 12:13:30 PM" CreatedBy="subodhsi" Guid="ad5a6b7a-44f5-4c4b-82d7-ded50b68dcd9" LastUpdate="1/1/0001 12:00:00 AM" Param="Destination_Place" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="strDestinationLocation" Version="0" />
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/8/2016 12:13:30 PM" CreatedBy="subodhsi" Guid="4b90b960-80e8-4eb5-a056-be5a7d7257f4" LastUpdate="1/1/0001 12:00:00 AM" Param="Travel_Day" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="strFlightTravel_Input" Version="0" />
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/8/2016 12:38:20 PM" CreatedBy="subodhsi" Guid="f8178a76-1db8-43f6-886d-18cb97937bb0" LastUpdate="1/1/0001 12:00:00 AM" Param="Price" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="strFare" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActExcel>
+<GingerCore.Actions.ActGotoURL Active="True" Created="6/7/2016 9:28:02 AM" CreatedBy="subodhsi" Description="Goto URL Action" EnableRetryMechanism="False" Guid="3c009055-8d81-4c59-9cc4-61384ca8e5fc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 9:28:07 AM" CreatedBy="subodhsi" Guid="4539ebf0-cce6-403a-b185-d908d3909cf8" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="https://www.makemytrip.com/" Value="https://www.makemytrip.com/" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 2:04:27 PM" CreatedBy="subodhsi" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="Click" Guid="af52f300-0dd5-45f4-a076-08762f4c70d8" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByLinkText" LocateValue="Flights" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 2:04:36 PM" CreatedBy="subodhsi" Guid="bfff87a0-8d53-4f94-a513-089aee8236bd" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 9:28:48 AM" CreatedBy="subodhsi" Description="Verify Title" EnableRetryMechanism="False" GenElementAction="GetWindowTitle" Guid="52719149-33e0-43fd-a7bd-cf5802992163" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 9:30:31 AM" CreatedBy="subodhsi" Guid="c4550cc8-1f98-4a54-8918-f7331319b710" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/7/2016 9:32:53 AM" CreatedBy="subodhsi" Guid="7880b644-a38c-4a4d-a011-1514632ab5d6" LastUpdate="1/1/0001 12:00:00 AM" mExpected="Cheap Air Tickets, Flight Ticket Booking of Domestic Flights at Lowest Airfare: MakeMyTrip" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGotoURL Active="True" Created="6/8/2016 7:39:03 PM" CreatedBy="subodhsi" Description="Goto App URL - http://www.makemytrip.com" EnableRetryMechanism="False" Guid="333ab1a5-e700-481d-8e9c-fbe73025ccf8" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 7:39:03 PM" CreatedBy="subodhsi" Guid="0dee58f8-30be-4ad9-bcf0-d9fd2439320f" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="http://www.makemytrip.com" Value="http://www.makemytrip.com" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+</Acts>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="6/8/2016 12:14:08 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="a67da98e-a30d-432b-a63d-b5c8c6aaae5d" InitialStringValue="Pune, India (PNQ)" LastUpdate="1/1/0001 12:00:00 AM" Name="strDepartureLocation" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Pune, India (PNQ)" Version="0" />
+<GingerCore.Variables.VariableString Created="6/8/2016 12:14:32 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="1cbbab65-295f-453b-a1b0-c97cd9d12634" InitialStringValue="Bangalore, India (BLR)" LastUpdate="1/1/0001 12:00:00 AM" Name="strDestinationLocation" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Bangalore, India (BLR)" Version="0" />
+<GingerCore.Variables.VariableString Created="6/7/2016 1:20:05 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="ce4c5330-ec08-4e95-8eed-900826ae584b" InitialStringValue="18" LastUpdate="1/1/0001 12:00:00 AM" Name="strFlightTravel_Input" ParentGuid="00000000-0000-0000-0000-000000000000" Value="18" Version="0" />
+<GingerCore.Variables.VariableString Created="6/8/2016 12:38:37 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="c16e828c-ea5e-4e7a-834a-7ff9e4e1d9f6" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" Name="strFare" ParentGuid="00000000-0000-0000-0000-000000000000" Value="" Version="0" />
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Book Flight Ticket" AutomationStatus="Development" Created="6/7/2016 9:37:23 AM" CreatedBy="subodhsi" Elapsed="137318" EnableActionsVariablesDependenciesControl="False" Guid="dfa3efd8-3c96-4add-8293-aeb787a8203f" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 12:42:46 PM" CreatedBy="subodhsi" Description="Select One way Radio button" EnableRetryMechanism="False" GenElementAction="Click" Guid="041bdb4f-d759-4902-a2ce-98ac03eaa100" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;one_way_button1&quot;]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 12:44:17 PM" CreatedBy="subodhsi" Guid="c9caac8f-6799-4b60-b642-65ac6362aafa" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActTextBox Active="True" Created="6/7/2016 12:25:57 PM" CreatedBy="subodhsi" Description="Set Depart Location" EnableRetryMechanism="False" Guid="ba8f34f2-af0c-468b-bf46-454d2c94e6fc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;from_typeahead1&quot;]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" TextBoxAction="SetValue" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 12:26:18 PM" CreatedBy="subodhsi" Guid="0b6a8ff6-de20-41db-a390-0f5b591a7e45" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=strDepartureLocation}" Value="{Var Name=strDepartureLocation}" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActTextBox>
+<GingerCore.Actions.ActTextBox Active="True" Created="6/7/2016 12:25:57 PM" CreatedBy="subodhsi" Description="Set To Location" EnableRetryMechanism="False" Guid="063e44b8-8402-4225-b777-5e56f805c09c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;to_typeahead1&quot;]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" TextBoxAction="SetValue" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 12:26:18 PM" CreatedBy="subodhsi" Guid="0b6a8ff6-de20-41db-a390-0f5b591a7e45" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=strDestinationLocation}" Value="{Var Name=strDestinationLocation}" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActTextBox>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 2:37:24 PM" CreatedBy="subodhsi" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="Click" Guid="f000fa33-5648-42ff-9461-16d03ce6791a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;content&quot;]/div[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 2:37:28 PM" CreatedBy="subodhsi" Guid="3c5d2a52-5c03-42ea-9226-6ffa192b041b" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<Ginger.Actions.ActSendKeys Active="True" Created="6/7/2016 2:45:22 PM" CreatedBy="subodhsi" Description="Send Keys Action" EnableRetryMechanism="False" Guid="2ff42f00-ff43-4426-9d81-d59d6bee61ef" IsSendKeysSlowly="True" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="Cheap Air Tickets, Flight Ticket Booking of Domestic Flights at Lowest Airfare: MakeMyTrip" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 2:45:46 PM" CreatedBy="subodhsi" Guid="9d4efc36-824c-414d-8312-704f86751c78" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{ENTER}" Value="{ENTER}" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</Ginger.Actions.ActSendKeys>
+<GingerCore.Actions.ActSetVariableValue Active="True" Created="6/7/2016 11:14:50 AM" CreatedBy="subodhsi" Description="Reset Vaariable" EnableRetryMechanism="False" Guid="20b78406-fb0a-4882-beda-d7be2163af7d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" SetVariableValueOption="ResetValue" StatusConverter="None" TakeScreenShot="False" VariableName="colNum" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 11:15:01 AM" CreatedBy="subodhsi" Guid="ad8f23ed-140f-4607-9957-ced5f1185710" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActSetVariableValue>
+<GingerCore.Actions.ActSetVariableValue Active="True" Created="6/7/2016 11:02:52 AM" CreatedBy="subodhsi" Description="Set Variable Action" EnableRetryMechanism="False" Guid="a9bf521c-1ca1-4ee6-862c-e06e7ca1c821" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" SetVariableValueOption="AutoGenerateValue" StatusConverter="None" TakeScreenShot="False" VariableName="colNum" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 11:02:59 AM" CreatedBy="subodhsi" Guid="b5cdea8c-5a70-4d80-b42c-4ab537cdcffa" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActSetVariableValue>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 11:20:28 AM" CreatedBy="subodhsi" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="Click" Guid="559d3eeb-b741-4bb8-8735-3c6a1f6d100e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;start_date_sec&quot;]/span[4]/span[2]/span[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 11:21:05 AM" CreatedBy="subodhsi" Guid="dfcaffe3-70c2-4a19-a61e-45861fde284e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 9:40:25 AM" CreatedBy="subodhsi" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="GetValue" Guid="3a8891cd-cbdd-40fa-a649-b5f87eeac616" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;ui-datepicker-div&quot;]/div[2]/table/tbody/tr[{Var Name=rowNum}]/td[{Var Name=colNum}]/a&#xD;&#xA;" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=DepDate} &lt;&gt; {Var Name=strFlightTravel_Input}" Created="6/7/2016 9:48:01 AM" CreatedBy="subodhsi" FlowControlAction="GoToAction" Guid="a3c9a568-eb97-405d-b41f-e34d636d70c7" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="a9bf521c-1ca1-4ee6-862c-e06e7ca1c821" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 9:40:31 AM" CreatedBy="subodhsi" Guid="6bb03bfd-8cd9-4a3c-88e3-0b31f39ad8a4" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/7/2016 9:57:00 AM" CreatedBy="subodhsi" Guid="1d3d477d-da73-41e7-a168-25578ffeadf9" LastUpdate="1/1/0001 12:00:00 AM" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="DepDate" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 11:07:35 AM" CreatedBy="subodhsi" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="Click" Guid="cce9753c-95e4-436d-8621-40435bce8a16" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;ui-datepicker-div&quot;]/div[2]/table/tbody/tr[{Var Name=rowNum}]/td[{Var Name=colNum}]/a" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 11:07:52 AM" CreatedBy="subodhsi" Guid="51fdfa1e-d7de-4878-b95f-ed27757ce3fe" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActSetVariableValue Active="True" Created="6/7/2016 11:14:50 AM" CreatedBy="subodhsi" Description="ReSet Variable" EnableRetryMechanism="False" Guid="2b76e147-6bd8-47c1-88d1-8b7aa8c45a17" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" SetVariableValueOption="ResetValue" StatusConverter="None" TakeScreenShot="False" VariableName="colNum" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 11:15:01 AM" CreatedBy="subodhsi" Guid="ad8f23ed-140f-4607-9957-ced5f1185710" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActSetVariableValue>
+<GingerCore.Actions.ActButton Active="True" ButtonAction="0" Created="6/7/2016 1:14:02 PM" CreatedBy="subodhsi" Description="Click Submit" EnableRetryMechanism="False" Guid="b84e9a14-8f9b-4f0e-929a-02bbe9a7ff1c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;flights_submit&quot;]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 1:14:43 PM" CreatedBy="subodhsi" Guid="7f55d01a-866c-468f-9485-6069ee02f6fa" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActButton>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 1:15:56 PM" CreatedBy="subodhsi" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="GetWindowTitle" Guid="7e1805f3-60ae-4a78-9b8a-9ddaaecfefc6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="30" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 1:16:00 PM" CreatedBy="subodhsi" Guid="83748e8b-2c60-4292-8b07-0cd8b30342be" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/7/2016 1:16:19 PM" CreatedBy="subodhsi" Guid="4f7c9f2c-ca7a-47b8-9267-fabfccb2a291" LastUpdate="1/1/0001 12:00:00 AM" mExpected="Flight Search" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<Variables>
+<GingerCore.Variables.VariableSequence Created="6/7/2016 9:50:19 AM" CreatedBy="subodhsi" CurrentValueIndex="0" CycleCount="0" Description="Variable Sequence" DiffrentFromOrigin="False" Guid="e76f44be-85a4-4fdb-a705-fcb1d4fa9126" Interval="1" IsInteger="False" LastUpdate="1/1/0001 12:00:00 AM" Max="5" Min="3" Name="rowNum" ParentGuid="00000000-0000-0000-0000-000000000000" Value="3" Version="0" />
+<GingerCore.Variables.VariableSequence Created="6/7/2016 9:51:21 AM" CreatedBy="subodhsi" CurrentValueIndex="0" CycleCount="0" Description="Variable Sequence" DiffrentFromOrigin="False" Guid="50a9f4a4-326e-4e1c-9e49-202090343cea" Interval="1" IsInteger="False" LastUpdate="1/1/0001 12:00:00 AM" Max="7" Min="1" Name="colNum" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1" Version="0" />
+<GingerCore.Variables.VariableString Created="6/7/2016 9:57:39 AM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="8e5669ce-1f88-4098-8899-5b044e48c5ba" InitialStringValue="12" LastUpdate="1/1/0001 12:00:00 AM" Name="DepDate" ParentGuid="00000000-0000-0000-0000-000000000000" Value="12" Version="0" />
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Flight Search" AutomationStatus="Development" Created="6/7/2016 1:16:47 PM" CreatedBy="subodhsi" Elapsed="70470" EnableActionsVariablesDependenciesControl="False" Guid="7e073c71-2b23-4022-8160-fd1e24928116" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 1:17:21 PM" CreatedBy="subodhsi" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="GetValue" Guid="b3110d4b-3e62-4d77-9553-09ff2d6051d6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;content&quot;]/div/div[1]/div[1]/div[1]/div/div[1]/div/a[2]/p[2]/span[2]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 1:17:34 PM" CreatedBy="subodhsi" Guid="61b282e0-2f4b-489f-807e-a91685174120" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/7/2016 1:18:24 PM" CreatedBy="subodhsi" Guid="70a02af0-cf8d-492b-b450-960f2d9bb3f2" LastUpdate="1/1/0001 12:00:00 AM" mExpected="{Var Name=strFlightTravel_Input}" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="strFlightTravelDate" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 1:17:21 PM" CreatedBy="subodhsi" Description="Capture Fare Amount " EnableRetryMechanism="False" GenElementAction="GetValue" Guid="56ef5390-7217-41b8-8fe6-c8bc1c37323c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;content&quot;]/div/div[1]/div[3]/div[2]/div[5]/div[1]/div[7]/p[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 1:17:34 PM" CreatedBy="subodhsi" Guid="61b282e0-2f4b-489f-807e-a91685174120" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/7/2016 1:24:55 PM" CreatedBy="subodhsi" Guid="2d48fcbc-e5ab-4385-ba0f-b9c2e1935874" LastUpdate="1/1/0001 12:00:00 AM" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="inFareAmount" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActButton Active="True" ButtonAction="0" Created="6/7/2016 1:28:02 PM" CreatedBy="subodhsi" Description="Click Book Button" EnableRetryMechanism="False" Guid="d4e4b842-e270-4cd1-81c7-cf8d65483360" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;content&quot;]/div/div[1]/div[3]/div[2]/div[5]/div[1]/div[8]/p[1]/a" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 1:28:07 PM" CreatedBy="subodhsi" Guid="ac19d16a-e2ed-4d12-9d38-dc8c46cc05ea" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActButton>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 1:29:21 PM" CreatedBy="subodhsi" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="GetWindowTitle" Guid="fafb3d81-a61e-4bd6-bc3c-f6a31492820a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="5" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="10" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="60" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 1:29:26 PM" CreatedBy="subodhsi" Guid="21066549-2a4c-466c-a45c-08922c4d4c61" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/7/2016 1:29:43 PM" CreatedBy="subodhsi" Guid="d624ea18-2dab-43da-909c-c59a868a8166" LastUpdate="1/1/0001 12:00:00 AM" mExpected="Flights Review" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="6/7/2016 1:18:41 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="65b43da1-3197-414b-b090-fdd8b291d76c" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" Name="strFlightTravelDate" ParentGuid="00000000-0000-0000-0000-000000000000" Value="" Version="0" />
+<GingerCore.Variables.VariableString Created="6/7/2016 1:25:08 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="7dfc4ebf-fb4f-4684-b557-1db5331baadd" InitialStringValue="Rs.1,571" LastUpdate="1/1/0001 12:00:00 AM" Name="inFareAmount" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Rs.1,571" Version="0" />
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Flight Review" AutomationStatus="Development" Created="6/7/2016 1:31:04 PM" CreatedBy="subodhsi" Elapsed="1197" EnableActionsVariablesDependenciesControl="False" Guid="185b9ddf-f48a-4aca-8044-c4c9fd76f6be" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Fail" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 1:36:21 PM" CreatedBy="subodhsi" Description="Check checkbox value" EnableRetryMechanism="False" GenElementAction="GetCustomAttribute" Guid="8dc89854-6551-4a0e-97d7-b325f6ef13d6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;content&quot;]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/span" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=strCheckBoxStatus}=checkbox_state_review pull-left active" Created="6/7/2016 1:40:17 PM" CreatedBy="subodhsi" FlowControlAction="GoToAction" Guid="11d5f24f-0fe4-4f4c-87d7-2942249611a9" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="7ffbcc7e-56c4-4a37-a2c3-272f7d01a07c" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 1:36:25 PM" CreatedBy="subodhsi" Guid="daf7f4c8-3da6-4a9c-9f6e-8f2aab746ffc" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="class" Value="class" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/7/2016 1:39:00 PM" CreatedBy="subodhsi" Guid="714c1098-75c4-46a1-8d5d-58e99f49f486" LastUpdate="1/1/0001 12:00:00 AM" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="strCheckBoxStatus" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActButton Active="True" ButtonAction="0" Created="6/7/2016 1:35:39 PM" CreatedBy="subodhsi" Description="Button Action" EnableRetryMechanism="False" Guid="7b69671d-38d8-4b4d-a75c-0f3bd0dbfb13" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;content&quot;]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/span" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 1:35:42 PM" CreatedBy="subodhsi" Guid="9dfbecf3-9c56-429b-a36b-067203f1cd74" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActButton>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/7/2016 1:45:00 PM" CreatedBy="subodhsi" Description="Retrieve Fare Amount" EnableRetryMechanism="False" GenElementAction="GetValue" Guid="7ffbcc7e-56c4-4a37-a2c3-272f7d01a07c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;content&quot;]/div[2]/div[2]/div[1]/div[2]/div[1]/div/p[4]/span[2]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2016 1:45:07 PM" CreatedBy="subodhsi" Guid="f7e03e0a-4d9c-43a3-a15a-56ea34218bfc" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/7/2016 1:45:29 PM" CreatedBy="subodhsi" Guid="376e82aa-821c-438c-91de-6b2ac4914c6f" LastUpdate="1/1/0001 12:00:00 AM" mExpected="Rs. {VBS Eval=mid(&quot;{Var Name=inFareAmount}&quot;,4)}" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="strFinalPrice" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActExcel Active="True" ColMappingRules="Price=strFinalPrice" Created="6/8/2016 12:26:52 PM" CreatedBy="subodhsi" Description="Excel Action" EnableRetryMechanism="False" ExcelActionType="WriteData" ExcelFileName="~\DOCUMENTS\TESTDATA.XLSX" Guid="1fd57684-9094-488b-85ba-f7805d47eac6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" PrimaryKeyColumn="ID" RetryMechanismInterval="0" SelectRowsWhere="ID=1" SetDataUsed="" SheetName="Sheet1" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:27:02 PM" CreatedBy="subodhsi" Guid="0ab5a5d1-ec8c-4e46-b957-a8ae0a4cd136" LastUpdate="1/1/0001 12:00:00 AM" Param="ExcelFileName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="~\DOCUMENTS\TESTDATA.XLSX" Value="~\DOCUMENTS\TESTDATA.XLSX" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:27:05 PM" CreatedBy="subodhsi" Guid="97f231dc-4ddf-4a82-b8ee-11a5dcfb8155" LastUpdate="1/1/0001 12:00:00 AM" Param="SheetName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Sheet1" Value="Sheet1" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:27:09 PM" CreatedBy="subodhsi" Guid="96474894-da79-4cd9-9341-a134d2808621" LastUpdate="1/1/0001 12:00:00 AM" Param="SelectRowsWhere" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID=1" Value="ID=1" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:27:15 PM" CreatedBy="subodhsi" Guid="e0de8aca-6c59-4c33-b8de-9e60145bf32c" LastUpdate="1/1/0001 12:00:00 AM" Param="PrimaryKeyColumn" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID" Value="ID" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:28:48 PM" CreatedBy="subodhsi" Guid="7ff89de2-2970-47b8-992b-aba0533b03ac" LastUpdate="1/1/0001 12:00:00 AM" Param="SetDataUsed" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/8/2016 12:30:32 PM" CreatedBy="subodhsi" Guid="3c42c2cb-27a3-4ae3-bb14-9282070d202c" LastUpdate="1/1/0001 12:00:00 AM" Param="ColMappingRules" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Price=strFinalPrice" Value="Price=strFinalPrice" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActExcel>
+</Acts>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="6/7/2016 1:39:46 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="17da267e-362e-4af8-a250-ae1015ba143d" InitialStringValue="checkbox_state_review pull-left active" LastUpdate="1/1/0001 12:00:00 AM" Name="strCheckBoxStatus" ParentGuid="00000000-0000-0000-0000-000000000000" Value="checkbox_state_review pull-left active" Version="0" />
+<GingerCore.Variables.VariableString Created="6/8/2016 12:28:04 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="f56de37d-b265-401f-b31d-c12a335c20b9" InitialStringValue="12" LastUpdate="1/1/0001 12:00:00 AM" Name="strFinalPrice" ParentGuid="00000000-0000-0000-0000-000000000000" Value="12" Version="0" />
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Select Date" AutomationStatus="Development" Created="6/8/2016 6:49:16 PM" CreatedBy="subodhsi" Elapsed="2306" EnableActionsVariablesDependenciesControl="False" Guid="480509da-17c9-437b-ac44-a83d7fc987b3" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/8/2016 6:51:43 PM" CreatedBy="subodhsi" Description="Click Calendar" EnableRetryMechanism="False" GenElementAction="Click" Guid="12eaa092-2845-4b7e-b3ff-e0624617a8b1" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;start_date_sec&quot;]'&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;{VBS Eval=Split(&quot;A,B,C,D&quot;,&quot;,&quot;)(2)}" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 6:51:49 PM" CreatedBy="subodhsi" Guid="5a5af36a-580f-46d5-baf0-1bcb86933c65" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActSetVariableValue Active="True" Created="6/8/2016 7:04:48 PM" CreatedBy="subodhsi" Description="Reset colNum Variable" EnableRetryMechanism="False" Guid="210b7d4c-ec69-4ea2-a294-809f52d38a75" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" SetVariableValueOption="ResetValue" StatusConverter="None" TakeScreenShot="False" VariableName="colNum" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 7:05:24 PM" CreatedBy="subodhsi" Guid="5d6000f8-945a-4ccc-b55e-16ee52897e37" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActSetVariableValue>
+<GingerCore.Actions.ActSetVariableValue Active="True" Created="6/8/2016 7:05:42 PM" CreatedBy="subodhsi" Description="Set Variable Action" EnableRetryMechanism="False" Guid="238cbba9-235d-4b06-bf88-1b069fbc2015" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" SetVariableValueOption="AutoGenerateValue" StatusConverter="None" TakeScreenShot="False" VariableName="colNum" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 7:05:50 PM" CreatedBy="subodhsi" Guid="c5a93437-0ed8-48ba-bd5e-67fbb62fa963" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActSetVariableValue>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/8/2016 7:06:54 PM" CreatedBy="subodhsi" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="GetValue" Guid="2c48a623-d56f-4959-a72f-9b547fa3e524" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;ui-datepicker-div&quot;]/div[2]/table/tbody/tr[{Var Name=rowNum}]/td[{Var Name=colNum}]/a" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=strFlightTravel_Input}&lt;&gt;18" Created="6/8/2016 7:14:18 PM" CreatedBy="subodhsi" FlowControlAction="GoToAction" Guid="3e984308-a5ed-4d0f-99e4-bb89d0900a90" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="238cbba9-235d-4b06-bf88-1b069fbc2015" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 7:07:05 PM" CreatedBy="subodhsi" Guid="93d6379c-0ee6-4054-839a-554917c5ac7c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="6/8/2016 7:13:35 PM" CreatedBy="subodhsi" Guid="37af07b4-d51c-47ad-8181-b9ecd5a64027" LastUpdate="1/1/0001 12:00:00 AM" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="strFlightTravel_Input" Version="0" />
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/8/2016 7:16:23 PM" CreatedBy="subodhsi" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="Click" Guid="c9a6c868-0df6-462c-946f-77f3584d6efc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[@id=&quot;ui-datepicker-div&quot;]/div[2]/table/tbody/tr[{Var Name=rowNum}]/td[{Var Name=colNum}]/a" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 7:16:29 PM" CreatedBy="subodhsi" Guid="1f1b9f96-9a03-494a-b345-e68b86ffd243" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<Variables>
+<GingerCore.Variables.VariableSequence Created="6/8/2016 7:02:55 PM" CreatedBy="subodhsi" CurrentValueIndex="0" CycleCount="0" Description="Variable Sequence" DiffrentFromOrigin="False" Guid="c00c5ac7-d529-4594-a327-642008ec74ba" Interval="1" IsInteger="False" LastUpdate="1/1/0001 12:00:00 AM" Max="7" Min="0" Name="colNum" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0" Version="0" />
+<GingerCore.Variables.VariableString Created="6/8/2016 7:03:23 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="31d994f0-e403-48bd-817e-1b8a59020f1d" InitialStringValue="3" LastUpdate="1/1/0001 12:00:00 AM" Name="rowNum" ParentGuid="00000000-0000-0000-0000-000000000000" Value="3" Version="0" />
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Record Flow" AutomationStatus="Development" Created="6/8/2016 7:36:54 PM" CreatedBy="subodhsi" Elapsed="2387" EnableActionsVariablesDependenciesControl="False" Guid="71df5d5d-234a-4de4-9b67-e9b6f4fde027" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" Created="6/8/2016 7:39:44 PM" CreatedBy="subodhsi" Description="Goto App URL - https://www.makemytrip.com/" EnableRetryMechanism="False" Guid="71db4daf-bf08-4d4f-9612-3b3363c8ec32" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 7:39:44 PM" CreatedBy="subodhsi" Guid="ad295c50-374d-45c0-a1c6-85e57ee023c8" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="https://www.makemytrip.com/" Value="https://www.makemytrip.com/" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+<GingerCore.Actions.ActLink Active="True" Created="6/8/2016 7:40:07 PM" CreatedBy="subodhsi" Description="Click Link:  ONE WAY" EnableRetryMechanism="False" Guid="a57fd74f-2ea3-4464-b8f1-614403032263" LastUpdate="1/1/0001 12:00:00 AM" LinkAction="Click" LocateBy="ByID" LocateValue="one_way_button1" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 7:42:43 PM" CreatedBy="subodhsi" Guid="640a483e-b212-4d6a-b59f-74d32e6416bf" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActLink>
+<GingerCore.Actions.ActTextBox Active="True" Created="6/8/2016 7:40:33 PM" CreatedBy="subodhsi" Description="Enter value in to_typeahead1" EnableRetryMechanism="False" Guid="b7e5be32-3b1b-4364-867a-dcf7a1d8af9a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="to_typeahead1" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" TextBoxAction="SetValue" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/8/2016 7:40:33 PM" CreatedBy="subodhsi" Guid="a0876416-db0d-45b7-b0a1-87d44faa3d3d" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="New Delhi, India (DEL)" Value="New Delhi, India (DEL)" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActTextBox>
+<GingerCore.Actions.ActLink Active="True" Created="6/8/2016 7:40:40 PM" CreatedBy="subodhsi" Description="Click Link: Search Flights" EnableRetryMechanism="False" Guid="7410b6fe-0e0e-445f-80d5-2bab89156249" LastUpdate="1/1/0001 12:00:00 AM" LinkAction="Click" LocateBy="ByID" LocateValue="flights_submit" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActLink>
+<GingerCore.Actions.ActGenElement Active="True" Created="6/8/2016 7:43:46 PM" CreatedBy="subodhsi" Description="Click //A[@id='flights_submit']" EnableRetryMechanism="False" GenElementAction="Click" Guid="b4009981-0e4a-433c-aa4a-d06e9334dc39" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//A[@id='flights_submit']" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Google" Created="6/8/2016 3:17:30 PM" CreatedBy="subodhsi" Guid="188bcdbb-fe87-4c1d-81f7-37dfe793c620" LastExecutingAgentName="Google - Agent 1" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="6/7/2016 1:20:05 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="ce4c5330-ec08-4e95-8eed-900826ae584b" InitialStringValue="18" LastUpdate="1/1/0001 12:00:00 AM" Name="strFlightTravel_Input" ParentGuid="00000000-0000-0000-0000-000000000000" Value="18" Version="0" />
+<GingerCore.Variables.VariableString Created="6/7/2016 1:46:25 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="8fd97ff8-211d-48ab-8174-64156db7ffa1" InitialStringValue="Rs.1,571" LastUpdate="1/1/0001 12:00:00 AM" Name="inFareAmount" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Rs.1,571" Version="0" />
+<GingerCore.Variables.VariableString Created="6/8/2016 12:14:08 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="a67da98e-a30d-432b-a63d-b5c8c6aaae5d" InitialStringValue="Pune, India (PNQ)" LastUpdate="1/1/0001 12:00:00 AM" Name="strDepartureLocation" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Pune, India (PNQ)" Version="0" />
+<GingerCore.Variables.VariableString Created="6/8/2016 12:14:32 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="1cbbab65-295f-453b-a1b0-c97cd9d12634" InitialStringValue="Bangalore, India (BLR)" LastUpdate="1/1/0001 12:00:00 AM" Name="strDestinationLocation" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Bangalore, India (BLR)" Version="0" />
+<GingerCore.Variables.VariableString Created="6/8/2016 12:38:37 PM" CreatedBy="subodhsi" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="c16e828c-ea5e-4e7a-834a-7ff9e4e1d9f6" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" Name="strFare" ParentGuid="00000000-0000-0000-0000-000000000000" Value="" Version="0" />
+</Variables>
+</GingerCore.BusinessFlow>

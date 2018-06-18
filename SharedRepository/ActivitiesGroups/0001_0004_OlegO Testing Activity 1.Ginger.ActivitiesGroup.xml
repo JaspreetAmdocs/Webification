@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.Activities.ActivitiesGroup Created="06-Jun-17 08:09:58" CreatedBy="OLEGO" ExternalID="RQMID=424780|RQMScriptID=401024|RQMRecordID=|AtsID=242" Guid="8a768bd5-bf58-4230-8fea-ca022ed99baf" LastUpdate="06-Jun-17 12:21:27" LastUpdateBy="OLEGO" Name="0001_0004_OlegO Testing Activity 1" ParentGuid="00000000-0000-0000-0000-000000000000" Version="2">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityDescription="            v1&#xA;          sdfsdfsdf-weight:bold; fon " ActivityExternalID="RQMID=401024_1|AtsID=341" ActivityGuid="021c06b4-177a-442d-b4c1-6251a9883c4f" ActivityName="0001_0004_OlegO Testing Activity 1&gt;s1" Created="06-Jun-17 08:09:58" CreatedBy="OLEGO" Guid="6141e8be-23a0-42d7-b758-d8e7657773a2" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityDescription="            v1&#xA;          sdfwefdf-weight:bold; fon " ActivityExternalID="RQMID=401024_2|AtsID=342" ActivityGuid="1b6831fa-f555-48a4-a725-1d45b7884dd4" ActivityName="0001_0004_OlegO Testing Activity 1&gt;s2" Created="06-Jun-17 08:09:58" CreatedBy="OLEGO" Guid="2ba9e6ef-81b8-4d8f-a253-902ca734de6e" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="            v1&#xA;          sasdfwewegefdf-weight:bold; fon " ActivityExternalID="RQMID=401024_3|AtsID=343" ActivityGuid="4ecc2c7b-eb0c-474b-a0cb-d217495fea3c" ActivityName="0001_0004_OlegO Testing Activity 1&gt;s3" Created="06-Jun-17 08:09:58" CreatedBy="OLEGO" Guid="81ddb075-8ccf-4ce0-9718-4582cbb88af2" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="            v1&#xA;          saasfwejhkuykegefdf-weight:bold; fon " ActivityExternalID="RQMID=401024_4|AtsID=344" ActivityGuid="a873d4a7-6e81-4c35-8ca1-6a13ef42b155" ActivityName="0001_0004_OlegO Testing Activity 1&gt;s4" Created="06-Jun-17 08:09:58" CreatedBy="OLEGO" Guid="32ef41a9-4162-42c5-b830-9b318f8872b0" LastUpdate="01-Jan-01 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>

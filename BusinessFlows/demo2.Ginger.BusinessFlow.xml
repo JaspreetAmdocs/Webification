@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="11/07/2017 11:10:10" CreatedBy="subodhsi" EnableActivitiesVariablesDependenciesControl="False" ExternalID="45197" Guid="0cf6b076-395a-494d-ac26-afe44fdca584" LastUpdate="11/07/2017 11:17:02" LastUpdateBy="YUVALLEV" Name="demo" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="3">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="NewGroup99" ActivityName="Activity 1" AutomationStatus="Development" Created="11/07/2017 11:10:10" CreatedBy="subodhsi" EnableActionsVariablesDependenciesControl="False" ExternalID="1741082" Guid="491b4b8a-5190-4f1b-b4e1-2b20135a49fb" LastUpdate="01/01/0001 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="11/07/2017 11:15:33" CreatedBy="YUVALLEV" Description="Goto URL Action" EnableRetryMechanism="False" ExternalID="" Guid="19510826-c710-4d88-89cb-08f4e22a8589" LastUpdate="01/01/0001 00:00:00" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="11/07/2017 11:15:51" CreatedBy="YUVALLEV" Guid="ed1437ec-4fe2-4c50-a82f-b8344c3ec41a" LastUpdate="01/01/0001 00:00:00" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="www.google.com" Value="www.google.com" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="asd" AutomationStatus="Development" Created="11/07/2017 11:10:10" CreatedBy="alokmish" EnableActionsVariablesDependenciesControl="False" Guid="bd3acd6a-d6cc-483d-82d4-79859a39561a" LastUpdate="01/01/0001 00:00:00" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+<GingerCore.Activities.ActivitiesGroup Created="11/07/2017 11:14:33" CreatedBy="YUVALLEV" ExternalID="1272730" ExternalID2="890791" Guid="f56428b0-770b-4c55-8153-da993b0a8a72" LastUpdate="01/01/0001 00:00:00" Name="NewGroup99" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="491b4b8a-5190-4f1b-b4e1-2b20135a49fb" ActivityName="Activity 1" Created="11/07/2017 11:14:56" CreatedBy="YUVALLEV" Guid="27e507fe-5fdd-46ce-b8e1-40ee380b2b3e" LastUpdate="01/01/0001 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+</ActivitiesGroups>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Google" Created="11/07/2017 11:10:10" CreatedBy="subodhsi" Guid="79c96b9c-012f-4220-bb23-9a8ba7fdd33d" LastUpdate="01/01/0001 00:00:00" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>

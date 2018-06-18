@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="0001_0006_OlegO Testing Activity 1&gt;s3" AutomationStatus="Development" Created="06-Jun-17 14:12:00" CreatedBy="OLEGO" Description="            v1&#xA;          sasdfwewegefdf-weight:bold; fon " EnableActionsVariablesDependenciesControl="False" Expected="asdfwegasdg" ExternalID="RQMID=401164_3|AtsID=343" Guid="e87314b3-85ba-4df4-b3ef-7995c6672740" LastUpdate="06-Jun-17 14:14:27" LastUpdateBy="OLEGO" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="1">
+<Acts>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableSelectionList Created="06-Jun-17 14:12:00" CreatedBy="OLEGO" CycleCount="0" Description="Variable Selection List" DiffrentFromOrigin="False" Guid="5a57081d-dd1b-48ad-a89f-dda051edad90" LastUpdate="01-Jan-01 00:00:00" Name="p1" OptionalValues="v1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="v1" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSelectionList>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
