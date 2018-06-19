@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<Ginger.Environments.Solution AlmType="QC" Created="6/7/2016 9:11:40 AM" CreatedBy="subodhsi" Guid="cfe58953-6d58-4efc-ba75-e6e9d3a28316" LastBusinessFlowFileName="C:\GingerSourceControl\Solutions\Webification.git\\BusinessFlows\Demo3.Ginger.BusinessFlow.xml" LastUpdate="6/19/2018 6:37:54 AM" LastUpdateBy="JKAUR" Name="GingerTraining" ParentGuid="00000000-0000-0000-0000-000000000000" ShowIndicationkForLockedItems="False" Version="4">
+<Ginger.Environments.Solution AlmType="QC" Created="6/7/2016 9:11:40 AM" CreatedBy="subodhsi" Guid="cfe58953-6d58-4efc-ba75-e6e9d3a28316" LastBusinessFlowFileName="C:\GingerSourceControl\Solutions\Webification.git\\BusinessFlows\Demo3.Ginger.BusinessFlow.xml" LastUpdate="6/19/2018 6:40:50 AM" LastUpdateBy="JKAUR" Name="GingerTraining" ParentGuid="00000000-0000-0000-0000-000000000000" ShowIndicationkForLockedItems="False" Version="5">
 <ApplicationPlatforms>
 <GingerCore.Platforms.ApplicationPlatform AppName="Google" CoreGUID="00000000-0000-0000-0000-000000000000" Created="6/7/2016 9:22:53 AM" CreatedBy="subodhsi" Guid="5a2c02eb-32ff-45c9-8a59-0d645d1fa50d" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Version="0" />
 </ApplicationPlatforms>
@@ -20,5 +20,9 @@
 </Tags>
 
 <Variables>
+<GingerCore.Variables.VariableString Created="6/19/2018 6:40:20 AM" CreatedBy="JKAUR" DiffrentFromOrigin="False" ExternalID="" Guid="c69868f6-a64b-4c26-aa3a-ff39c74c8b8e" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="NewVar" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
 </Variables>
 </Ginger.Environments.Solution>
