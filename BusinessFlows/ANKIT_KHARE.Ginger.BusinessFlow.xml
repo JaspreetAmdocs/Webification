@@ -1,8 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="False" Created="8/29/2016 5:14:34 PM" CreatedBy="ANKHARE" EnableActivitiesVariablesDependenciesControl="False" Guid="18aa2473-02f2-4727-9175-90d0d27d6873" LastUpdate="6/19/2018 6:40:48 AM" LastUpdateBy="JKAUR" Mandatory="False" Name="ANKIT_KHARE" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="7">
+<GingerCore.BusinessFlow Active="False" Created="8/29/2016 5:14:34 PM" CreatedBy="ANKHARE" EnableActivitiesVariablesDependenciesControl="False" Guid="18aa2473-02f2-4727-9175-90d0d27d6873" LastUpdate="6/19/2018 7:17:31 AM" LastUpdateBy="JKAUR" Mandatory="False" Name="ANKIT_KHARE" ParentGuid="00000000-0000-0000-0000-000000000000" RunDescription="asdasdsadsad" Source="Ginger" Version="12">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="8/29/2016 5:14:34 PM" CreatedBy="ANKHARE" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="508dccfb-2813-4e83-aa66-49dd9adf50fc" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<Acts>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="New Activity" AutomationStatus="Development" Created="6/19/2018 6:55:02 AM" CreatedBy="JKAUR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="04dd52f8-c3f2-4231-bddc-ff209d622bb5" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
 <Acts>
 </Acts>
 
@@ -66,8 +82,48 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Activity>
-<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="False" ActivityName="New ActivityJaspreet" AutomationStatus="Development" Created="5/25/2018 7:20:58 AM" CreatedBy="JKAUR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="0eb0946f-c7c6-4ec7-8d34-88f872382233" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="False" ActivityName="New ActivityJaspreet" AutomationStatus="Development" Created="5/25/2018 7:20:58 AM" CreatedBy="JKAUR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="0eb0946f-c7c6-4ec7-8d34-88f872382233" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Mediation" Version="0">
 <Acts>
+<GingerCore.Actions.ActConsoleCommand Active="True" ConfigOutputDS="False" ConsoleCommand="FreeCommand" Created="6/19/2018 6:55:10 AM" CreatedBy="JKAUR" Description="Console Command Action" EnableRetryMechanism="False" ExternalID="" Guid="379ef585-31d0-4efd-89be-5dc6a4e3a189" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="1866a374-16c9-4fdf-9c4c-d5c46b402e32" Param="Free Command" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActConsoleCommand>
+<GingerCore.Actions.ActConsoleCommand Active="True" ConfigOutputDS="False" ConsoleCommand="0" Created="6/19/2018 7:04:06 AM" CreatedBy="JKAUR" Description="Console Command Action" EnableRetryMechanism="False" ExternalID="" Guid="a44505b6-446d-4617-b3b9-d5faf3a26f5d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="ac5a4644-03bb-4e7b-9ea4-22a0b98d2de5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActConsoleCommand>
 </Acts>
 
 <MappedErrorHandlers>
@@ -94,7 +150,8 @@
 </Tags>
 
 <TargetApplications>
-<GingerCore.Platforms.TargetApplication AppName="Google" Created="8/29/2016 5:14:34 PM" CreatedBy="ANKHARE" Guid="72cd7c52-f5b3-4176-8bc7-3592d9b57383" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Platforms.TargetApplication AppName="Google" Created="6/19/2018 6:54:53 AM" CreatedBy="JKAUR" Guid="e282db5c-18f0-4699-a70a-7a3cd9117d73" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Platforms.TargetApplication AppName="Mediation" Created="6/19/2018 6:54:53 AM" CreatedBy="JKAUR" Guid="4b1199df-9ba9-49ca-ac31-a6826a171ac5" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
 </TargetApplications>
 
 <Variables>
