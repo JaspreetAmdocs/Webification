@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="False" Created="9/13/2017 5:33:52 AM" CreatedBy="JKAUR" Elapsed="17349" EnableActivitiesVariablesDependenciesControl="False" Guid="32641f67-ee0c-4769-935d-d41754026938" LastUpdate="5/25/2018 8:05:54 AM" LastUpdateBy="JKAUR" Mandatory="False" Name="Demo_Jas" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="22">
+<GingerCore.BusinessFlow Active="False" Created="9/13/2017 5:33:52 AM" CreatedBy="JKAUR" Elapsed="17349" EnableActivitiesVariablesDependenciesControl="False" Guid="32641f67-ee0c-4769-935d-d41754026938" LastUpdate="6/19/2018 6:37:20 AM" LastUpdateBy="JKAUR" Mandatory="False" Name="Demo_Jas" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="23">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="9/13/2017 5:33:52 AM" CreatedBy="JKAUR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="7d7ff028-a535-4e98-ba75-33095b319f28" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Google" Version="0">
 <Acts>
@@ -127,22 +127,6 @@
 </VariablesDependencies>
 </GingerCore.Activity>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="False" ActivityName="New Activitydfgdfg" AutomationStatus="Development" Created="5/25/2018 8:02:57 AM" CreatedBy="JKAUR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="28f76b4e-24ec-4d73-ab93-431b0338740c" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
-<Acts>
-</Acts>
-
-<MappedErrorHandlers>
-</MappedErrorHandlers>
-
-<Tags>
-</Tags>
-
-<Variables>
-</Variables>
-
-<VariablesDependencies>
-</VariablesDependencies>
-</GingerCore.Activity>
-<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="False" ActivityName="New Activitydfgdfgdfg" AutomationStatus="Development" Created="5/25/2018 8:02:57 AM" CreatedBy="JKAUR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="57ba70fe-105f-4afe-854a-c5dc328fe3b8" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Google" Version="0">
 <Acts>
 </Acts>
 
